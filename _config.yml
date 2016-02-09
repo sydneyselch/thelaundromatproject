@@ -1,5 +1,5 @@
 markdown: redcarpet
 permalink: pretty
-baseurl: ""
+baseurl: "/thelaundromatproject"
 exclude: ['README.md']
 exclude: ['portfolio-piece-template.md']
