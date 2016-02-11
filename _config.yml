@@ -3,3 +3,4 @@ permalink: pretty
 baseurl: "/thelaundromatproject"
 exclude: ['README.md']
 exclude: ['portfolio-piece-template.md']
+exclude: [scss]
