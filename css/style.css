@@ -575,7 +575,7 @@ body.noscript .toggle-btn {
   display: block;
   margin: 0 auto 20em;
   padding-left: 0;
-  background-color: #ccc;
+  background-color: #F5F5F5;
   width: 100%;
   padding: 0 0 0 140px;
 }
@@ -605,7 +605,7 @@ body.noscript .toggle-btn {
   top: 2em;
   list-style: none;
   padding-left: 0;
-  background-color: blue;
+  background-color: #4682B4;
 }
 
 #nav li:hover ul {
@@ -755,7 +755,7 @@ body.noscript .toggle-btn {
   right: 1em;
   top: 60px;
   font-size: 2em;
-  color: #222;
+  color: #3B3D3D;
 }
 
 .navigation ul {
@@ -764,13 +764,12 @@ body.noscript .toggle-btn {
 
 .navigation li {
   list-style-type: none;
-  background-color: red;
   font-size: 1.5em;
 }
 
 .navigation a {
   display: block;
-  color: #222;
+  color: #3B3D3D;
   text-align: center;
   text-decoration: none;
 }
@@ -780,16 +779,20 @@ body.noscript .toggle-btn {
 }
 
 .navigation .close-btn {
-  color: #cf0a2c;
+  color: #FF7F50;
 }
 
 .nav ul {
   display: none;
 }
 
+.nav li {
+  background-color: #3B3D3D;
+}
+
 .toggle-btn,
 .close-btn {
-  color: #222;
+  color: #4682B4;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -814,7 +817,7 @@ body.noscript .toggle-btn {
 .close-btn {
   margin: 1em;
   font-size: 2em;
-  color: #cf0a2c;
+  color: #FF7F50;
 }
 
 /*======================================*/
@@ -914,7 +917,7 @@ body.noscript .toggle-btn {
   }
   .navigation a {
     border-bottom: 0;
-    color: #cf0a2c;
+    color: #FF7F50;
   }
   .navigation li:first-child a {
     border-top: 0;

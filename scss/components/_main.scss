@@ -347,7 +347,6 @@ line-height:2em;
     
     li{
         list-style-type:none; 
-        background-color: red;
         font-size: 1.5em;
         &:first-child a{
              }
@@ -377,7 +376,7 @@ line-height:2em;
     }
     
         li{
-            background-color: $dark-blue;
+            background-color: $dark-grey;
             
         }
     
