@@ -450,14 +450,19 @@ body.noscript .toggle-btn {
 }
 
 .top-logo {
-  margin: 0 25% 0;
-  text-align: center;
+  margin: 0 5% 0;
   height: auto;
 }
 
 /*======================================*/
 /*===========MOBILE Navigation=================*/
 /*======================================*/
+.mobile-logo {
+  height: 100px;
+  margin: 1em auto 1em;
+  text-align: center;
+}
+
 .x {
   display: none;
   float: right;
@@ -536,14 +541,8 @@ body.noscript .toggle-btn {
 }
 
 .nav-logo {
-  height: 130px;
+  height: 110px;
   margin: .5em auto .5em;
-  text-align: center;
-}
-
-.mobile-logo {
-  height: 130px;
-  margin: 1em auto 1em;
   text-align: center;
 }
 
@@ -572,11 +571,9 @@ body.noscript .toggle-btn {
   height: 2em;
   float: right;
   display: block;
-  margin: 0 auto 20em;
   padding-left: 0;
-  background-color: #F5F5F5;
-  width: 100%;
-  padding: 0 0 0 140px;
+  width: auto;
+  padding: 0;
 }
 
 #nav li {
@@ -605,6 +602,7 @@ body.noscript .toggle-btn {
   list-style: none;
   padding-left: 0;
   background-color: #4682B4;
+  margin: 0 auto 3em;
 }
 
 #nav li:hover ul {
@@ -695,11 +693,26 @@ body.noscript .toggle-btn {
 }
 
 .billboard {
-  height: 500px;
+  height: calc(100vh - 160px);
   width: 100%;
   background-image: url(../images/artist-profile.jpg);
   background-position: center center;
   background-size: cover;
+  position: relative;
+}
+
+.billboard-box {
+  background-color: rgba(51, 61, 61, 0.75);
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.billboard-box h1 {
+  white-space: nowrap;
+  padding: .5em 10% .5em;
 }
 
 .dt-donate-btn {
@@ -837,8 +850,7 @@ body.noscript .toggle-btn {
     text-transform: lowercase;
     display: block;
     width: 100%;
-    height: auto;
-    margin: 80px 0 0;
+    height: 90px;
   }
   .container {
     margin: 0 10% 0;
@@ -853,9 +865,12 @@ body.noscript .toggle-btn {
     height: auto;
     position: fixed;
   }
+  .billboard-box {
+    width: 60%;
+  }
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 40em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -890,7 +905,7 @@ body.noscript .toggle-btn {
   }
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 40em) {
   .toggle-btn,
   .close-btn {
     display: none;
@@ -925,6 +940,12 @@ body.noscript .toggle-btn {
     text-decoration: line-through;
     color: black;
     transition: all .2s linear;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .billboard-box {
+    width: 40%;
   }
 }
 
