@@ -275,7 +275,7 @@ height:2em;
 }
 
 .billboard {
-      height: calc(100vh - 160px);
+      height: calc(100vh - 190px);
       width: 100%;
       background-image: url(../images/artist-profile.jpg);
         background-position: center center;
@@ -445,6 +445,8 @@ height:2em;
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
+    
+    
 
   .mobile-logo {
     display: none;
@@ -604,4 +606,10 @@ body.noscript .navigation{
 
     }
 
+}
+
+@media only screen and (min-width: 90em) {
+    .billboard-container{
+        margin: 0 10% 0;
+    }
 }

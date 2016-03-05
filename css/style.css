@@ -693,7 +693,7 @@ body.noscript .toggle-btn {
 }
 
 .billboard {
-  height: calc(100vh - 160px);
+  height: calc(100vh - 190px);
   width: 100%;
   background-image: url(../images/artist-profile.jpg);
   background-position: center center;
@@ -976,5 +976,11 @@ body.noscript .toggle-btn {
 @media only screen and (min-width: 60em) {
   .footer-nav {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+  .billboard-container {
+    margin: 0 10% 0;
   }
 }
