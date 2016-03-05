@@ -5,7 +5,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: 'Noto Sans', sans-serif;
-  font-family: 'Noto Serif', serif;
 }
 
 *, *:before, *:after {
@@ -18,10 +17,14 @@ html {
 
 body{
     margin:0;
+<<<<<<< Updated upstream
      &.noscript .close-btn,
   &.noscript .toggle-btn{
       display: none;
   }
+=======
+
+>>>>>>> Stashed changes
 
 }
 
@@ -243,9 +246,9 @@ line-height:2em;
             display: inline-block;
             width: 100px;
             margin: 1em 5% 1em;
-            
+
         }
-            a{  
+            a{
                 text-decoration: none;
                 color:white;
             }
@@ -253,19 +256,19 @@ line-height:2em;
 
 .footer-nav li:last-child{
     margin-right:0;
-    
+
 }
 
 
 .footer-nav li{
     ul{
-        padding-left: 0;   
+        padding-left: 0;
     }
         li{
             margin:0;
         }
 }
-    
+
 
 .social a {
   text-decoration: none;
@@ -279,7 +282,7 @@ line-height:2em;
   background-image: url(../images/artist-profile.jpg);
     background-position: center center;
     background-size: cover;
-    
+
 }
 
 .dt-donate-btn {
@@ -295,8 +298,8 @@ line-height:2em;
 }
 
 .dt-donate-btn:hover{
-    background-color: grey;   
-    
+    background-color: grey;
+
 }
 
 .dt-donate-btn a {
@@ -327,8 +330,8 @@ line-height:2em;
 }
 
 .container{
-    margin: 0 5% 0;   
-    
+    margin: 0 5% 0;
+
 }
 
 .toggle-btn{
@@ -435,9 +438,9 @@ line-height:2em;
 
 
 .container{
-    margin: 0 10% 0;   
-    
-}        
+    margin: 0 10% 0;
+
+}
 
   .banner {
     display: none;
@@ -546,10 +549,10 @@ body.noscript .navigation{
 
 
 @media only screen and (min-width: 60em) {
-    
+
     .footer-nav{
         display:block;
-        
+
     }
-    
+
 }
