@@ -155,11 +155,12 @@ height:2em;
     padding-left: 0;
     width: auto;
     padding: 0;
+    margin: 2em 0 0;
 }
 #nav li {
     position:relative;
     display:inline-block;
-    width: 180px;
+    width: 115px;
     text-align:center;
 }
 #nav li:hover {
@@ -184,7 +185,6 @@ height:2em;
 #nav li:hover ul {
     left:0;
     top:auto;
-    transition: all .2s ease-in;
 }
 
 
@@ -287,6 +287,7 @@ height:2em;
 .billboard-box{
         background-color: rgba(51, 61, 61, .75);
         color:white;
+        text-transform: uppercase;
         width:100%;
         position: absolute;
         bottom: 0;
@@ -299,6 +300,19 @@ height:2em;
         
     }
 
+.billboard-buttons{
+    width:100%;
+    height: auto;
+    margin: 1em auto 1em;
+    
+        .buttons{
+            text-align: center;
+        }
+    
+            i{
+                margin: 0 5% 0;
+            }
+}
 .dt-donate-btn {
   width: 140px;
   height: 40px;
@@ -447,6 +461,9 @@ height:2em;
     display: block;
     width: 100%;
     height: 90px;
+      position: fixed;
+      z-index: 100;
+      background-color:white;
 
   }
 
@@ -469,6 +486,11 @@ height:2em;
     .billboard-box{
         width: 60%;
     }
+    
+    
+    .billboard {
+      height: calc(100vh - 55px);
+}
 }
 
 @media only screen and (max-width: 40em){
@@ -567,6 +589,10 @@ body.noscript .navigation{
     .billboard-box{
         width: 40%;
     }
+    
+    #nav li {
+        width: 140px;
+}
 }
     
 

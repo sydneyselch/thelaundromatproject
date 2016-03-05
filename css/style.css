@@ -574,12 +574,13 @@ body.noscript .toggle-btn {
   padding-left: 0;
   width: auto;
   padding: 0;
+  margin: 2em 0 0;
 }
 
 #nav li {
   position: relative;
   display: inline-block;
-  width: 180px;
+  width: 115px;
   text-align: center;
 }
 
@@ -608,7 +609,6 @@ body.noscript .toggle-btn {
 #nav li:hover ul {
   left: 0;
   top: auto;
-  transition: all .2s ease-in;
 }
 
 /*======================================*/
@@ -704,6 +704,7 @@ body.noscript .toggle-btn {
 .billboard-box {
   background-color: rgba(51, 61, 61, 0.75);
   color: white;
+  text-transform: uppercase;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -713,6 +714,20 @@ body.noscript .toggle-btn {
 .billboard-box h1 {
   white-space: nowrap;
   padding: .5em 10% .5em;
+}
+
+.billboard-buttons {
+  width: 100%;
+  height: auto;
+  margin: 1em auto 1em;
+}
+
+.billboard-buttons .buttons {
+  text-align: center;
+}
+
+.billboard-buttons i {
+  margin: 0 5% 0;
 }
 
 .dt-donate-btn {
@@ -851,6 +866,9 @@ body.noscript .toggle-btn {
     display: block;
     width: 100%;
     height: 90px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
   }
   .container {
     margin: 0 10% 0;
@@ -867,6 +885,9 @@ body.noscript .toggle-btn {
   }
   .billboard-box {
     width: 60%;
+  }
+  .billboard {
+    height: calc(100vh - 55px);
   }
 }
 
@@ -946,6 +967,9 @@ body.noscript .toggle-btn {
 @media only screen and (min-width: 50em) {
   .billboard-box {
     width: 40%;
+  }
+  #nav li {
+    width: 140px;
   }
 }
 
