@@ -50,6 +50,12 @@ body{
   height: auto;
 }
 
+
+.mission-container{
+    margin: 0 10% 0;   
+    
+}
+
 /*======================================*/
 /*===========MOBILE Navigation=================*/
 /*======================================*/
@@ -92,7 +98,7 @@ body{
 .top-nav-li {
   color: black;
   font-size: 2em;
-  margin: .25em auto 0;
+  padding: .25em 0 .25em;
   border-bottom: 1px solid #efefef;
   display: block;
 }
@@ -337,7 +343,7 @@ height:2em;
 }
 
 .container{
-    margin: 0 5% 0;
+    margin: 0 10% 0;
 
 }
 
@@ -386,7 +392,6 @@ height:2em;
     }
     
         li{
-            background-color: $dark-grey;
             
         }
     
@@ -425,7 +430,10 @@ height:2em;
 /*======================================*/
 @media only screen and (min-width: 40em) {
     
+    .mission-container{
+    margin: 0 15% 0;   
     
+}
 
   .mobile-logo {
     display: none;
@@ -567,6 +575,13 @@ body.noscript .navigation{
 }
 
 @media only screen and (min-width: 50em) {
+    
+    .mission-container{
+    margin: 0 30% 0;   
+    
+}
+    
+    
     .billboard-box{
         width: 40%;
     }

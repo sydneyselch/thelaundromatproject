@@ -475,6 +475,10 @@ body.noscript .toggle-btn {
   height: auto;
 }
 
+.mission-container {
+  margin: 0 10% 0;
+}
+
 /*======================================*/
 /*===========MOBILE Navigation=================*/
 /*======================================*/
@@ -515,7 +519,7 @@ body.noscript .toggle-btn {
 .top-nav-li {
   color: black;
   font-size: 2em;
-  margin: .25em auto 0;
+  padding: .25em 0 .25em;
   border-bottom: 1px solid #efefef;
   display: block;
 }
@@ -752,7 +756,7 @@ body.noscript .toggle-btn {
 }
 
 .container {
-  margin: 0 5% 0;
+  margin: 0 10% 0;
 }
 
 .toggle-btn {
@@ -791,10 +795,6 @@ body.noscript .toggle-btn {
   display: none;
 }
 
-.nav li {
-  background-color: #3B3D3D;
-}
-
 .toggle-btn,
 .close-btn {
   color: #4682B4;
@@ -829,6 +829,9 @@ body.noscript .toggle-btn {
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
+  .mission-container {
+    margin: 0 15% 0;
+  }
   .mobile-logo {
     display: none;
   }
@@ -943,6 +946,9 @@ body.noscript .toggle-btn {
 }
 
 @media only screen and (min-width: 50em) {
+  .mission-container {
+    margin: 0 30% 0;
+  }
   .billboard-box {
     width: 40%;
   }
