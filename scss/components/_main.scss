@@ -25,6 +25,10 @@ body{
 
 }
 
+h1{
+    color:navy;
+}
+
 .donate-btn{
     width: 100px;
     height: 40px;
@@ -53,7 +57,7 @@ body{
 
 
 .mission-container{
-    margin: 0 10% 0;   
+    margin: 0 10% 2em;   
     
 }
 
@@ -319,6 +323,7 @@ height:2em;
             h1{
                 white-space: nowrap;
                 padding: .5em 10% .5em;
+                color:white;
             }
         
     }
@@ -425,6 +430,8 @@ height:2em;
 /*===========TEAM PAGE=================*/
 /*======================================*/
 
+
+
 .team {
     color:white;
     padding: 1em 0 0;
@@ -432,14 +439,17 @@ height:2em;
    
     h1{
         text-align: center; 
+        color:white;
         line-height: 1em;
         margin: 0;
+        font-size: 2.5em;
        
     }
         h2{
             text-align: center;
             line-height: 1em;
             margin: .5em auto .5em;
+            font-size: 1em;
            
         }
         
@@ -486,11 +496,67 @@ height:2em;
     }
 }
 
+.team-page{
+    h1{
+        font-size: 2.5em;   
+    }
+    h2{
+       font-size: 1em; 
+    }
+}
 
 
 
 
+.staff {
+    color:white;
+    padding: 1em 0 1em;
+    background-color:navy;    
+   
+    h1{
+        text-align: center; 
+        line-height: 1em;
+        margin: 0;
+        font-size: 2.5em;
+        color:white;
+       
+    }
+        h2{
+            text-align: center;
+            line-height: 1em;
+            margin: .5em auto .5em;
+            font-size: 1em;
+           
+        }
+        
+        img{
+            width:200px;
+            height: auto;
+            margin: 0 auto 0;
+            border: 5px solid white;
+        }
+            img:hover{
+                opacity: .5;
+            
+        }
+    
+        figure{
+            text-align: center;   
+        }
+    
+}
 
+.faculty{
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    li{
+        color:navy;
+    }   
+    
+}
 
 
 
@@ -502,7 +568,7 @@ height:2em;
  
     
     .mission-container{
-    margin: 0 15% 0;   
+        margin: 0 15% 2em;   
     
 }
 
@@ -660,7 +726,7 @@ body.noscript .navigation{
 }
     
     .mission-container{
-    margin: 0 30% 0;   
+    margin: 0 30% 2em;   
     
 }
     
