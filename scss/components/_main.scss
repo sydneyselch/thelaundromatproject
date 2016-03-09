@@ -420,6 +420,48 @@ height:2em;
     color: $coral;
 }
 
+/*======================================*/
+/*===========TEAM PAGE=================*/
+/*======================================*/
+
+.team {
+    color:white;
+    padding: 1em 0 0;
+    background-color:navy;        
+    h1{
+        text-align: center; 
+        line-height: 1em;
+        margin: 0;
+       
+    }
+        h2{
+            text-align: center;
+            line-height: 1em;
+            margin: .5em auto .5em;
+           
+        }
+        
+        img{
+            width:200px;
+            height: auto;
+            margin: 0 auto 0;
+            border: 5px solid white;
+        }
+            img:hover{
+                opacity: .5;
+            
+        }
+    
+        figure{
+            text-align: center;   
+        }
+    
+}
+
+
+
+
+
 
 
 

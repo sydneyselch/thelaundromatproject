@@ -826,6 +826,42 @@ body.noscript .toggle-btn {
 }
 
 /*======================================*/
+/*===========TEAM PAGE=================*/
+/*======================================*/
+.team {
+  color: white;
+  padding: 1em 0 0;
+  background-color: navy;
+}
+
+.team h1 {
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+}
+
+.team h2 {
+  text-align: center;
+  line-height: 1em;
+  margin: .5em auto .5em;
+}
+
+.team img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto 0;
+  border: 5px solid white;
+}
+
+.team img:hover {
+  opacity: .5;
+}
+
+.team figure {
+  text-align: center;
+}
+
+/*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
