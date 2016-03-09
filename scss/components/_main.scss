@@ -30,6 +30,7 @@ body{
     height: 40px;
     position: fixed;
     right:0;
+    background-color: $coral;
     bottom:260px;
     z-index: 150;
     color:white;
@@ -42,7 +43,7 @@ body{
 }
 
 .donate-btn:hover{
-    background-color: $coral;   
+    background-color: $blue;   
 }
 
 .top-logo {
@@ -427,7 +428,8 @@ height:2em;
 .team {
     color:white;
     padding: 1em 0 0;
-    background-color:navy;        
+    background-color:navy;    
+   
     h1{
         text-align: center; 
         line-height: 1em;
@@ -458,6 +460,31 @@ height:2em;
     
 }
 
+.circle-info{
+    h1{
+        text-align: center;
+        
+    }
+}
+
+.circle{
+    ul{
+        padding-left: 0;
+        list-style-type: none;
+        margin:0 auto 1em;
+    }
+    
+    h4{
+        margin:0;   
+        color:navy;
+    }
+    
+    h3{
+        text-transform: uppercase;
+        color:navy;
+        
+    }
+}
 
 
 
@@ -471,6 +498,8 @@ height:2em;
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
+    
+ 
     
     .mission-container{
     margin: 0 15% 0;   
@@ -560,6 +589,8 @@ height:2em;
             
     }
     
+  
+    
 }
 
 @media only screen and (min-width: 40em){
@@ -617,6 +648,16 @@ body.noscript .navigation{
 }
 
 @media only screen and (min-width: 50em) {
+    
+      .team {      
+        h1{
+        margin: 100px 0 0;
+    }
+    }
+    
+    .circle-info{
+        margin: 0 20% 0;
+}
     
     .mission-container{
     margin: 0 30% 0;   
