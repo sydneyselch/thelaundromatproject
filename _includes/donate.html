@@ -1,65 +1,188 @@
-<h1> Donate </h1>
-
-<!--
-<p>Our work is largely supported by the wonderful donations of individuals, foundations, and public agencies that care about art, justice, and community. We invite you to invest in our work to weave art into everyday spaces by making a one-time or recurring cash contribution, donating a wishlist item, or purchasing an item from the shop.
-</p>
-
-<h2> Donate Now </h2>
-
-<p>$50 provides silkscreen-ink and other materials for ten participants at a drop-in art workshop. Donate $50! </p>
-
-<p>$100 buys media equipment for a high school student in our in-school residency program. Donate $100! </p>
-
-<p>$250 provides a scholarship for one of our Create Change Fellows. Donate $250! </p>
-
-<p>$500 takes our popular silk-screening workshop on the road to neighborhood festivals. Donate $500! </p>
-
-<p>$1,000 provides a full day of training for our amazing artist faculty. Donate $1,000!
- </p>
-
-<p>$10,000 supports a Commissioned Artist for an entire season. Donate $10,000! </p>
-
--->
+<div class="donte-container">
+  <div class="form-holder">
+    <h1>Donate</h1>
 
 
-<h2> Donate Any Amount </h2>
+    <p>Our work is largely supported by the wonderful donations of individuals, foundations, and public agencies that care about art, justice, and community. We invite you to invest in our work to weave art into everyday spaces by making a one-time or recurring cash contribution, or purchasing an item from the shop.
+    </p>
 
-<p><a href="www.paypal.com">To make a donation in the amount of your choosing, please click here.
-</a></p>  
+    <form action="thanks.html" method="get">
+      <h2> Select an Amount </h2>
 
- 
-<p>To send your tax-deductible contribution by mail, make your check payable to The Laundromat Project, Inc and mail to: </p>
- 
-<p>The Laundromat Project
-127 West 127th Street
-Suite 324
-New York, NY 10027 </p>
- 
-<p>Thank you for supporting The Laundromat Project!</p>
+      <hr>
 
-<h2> Donate Montly </h2>
+      <div class="donate-button-container">
+        <div class="grid">
+          <button class="amount-buttons unit unit-l-1-3 unit-m-1-3 unit-s-1-2 unit-xs-1-2">$500</button>
+          <button class="amount-buttons unit unit-l-1-3 unit-m-1-3 unit-s-1-2 unit-xs-1-2">$250</button>
+          <button class="amount-buttons unit unit-l-1-3 unit-m-1-3 unit-s-1-2 unit-xs-1-2">$100</button>
+          <button class="amount-buttons unit unit-l-1-3 unit-m-1-3 unit-s-1-2 unit-xs-1-2">$50</button>
+          <button class="amount-buttons unit unit-l-1-3 unit-m-1-3 unit-s-1-2 unit-xs-1-2">$25</button>
+          <button class="amount-buttons unit unit-l-1-3 unit-m-1-3 unit-s-1-2 unit-xs-1-2">Other</button>
+        </div>
+      </div>
 
-<p>Your generous monthly gift is especially important and deeply appreciated because it helps us focus on doing what we do best: bringing engaging, community-responsive art and artists into neighborhoods of color across Greater New York City. </p>
+      <div class="grid">
+        <div class="donate-amount">
+          <div class="unit unit-l-1-3 unit-m-1-3 unit-s-1 unit-xs-1">
+              <label class="box" for="amount">Your Donation</label>
+              <input class="field" id="amount" type="text" placeholder="$">
+          </div>
 
-<p>$5 monthly
-<a href="www.paypal.com">Arts Advocate</a></p>
+          <div class="unit unit-l-1-3 unit-m-1-3 unit-s-1 unit-xs-1">
+              <input type="checkbox" id="onetime">
+              <label class="box" for="onetime">One-Time</label>
+          </div>
 
-<p>$10 monthly
-<a href="www.paypal.com">Ally </a></p>
+          <div class="unit unit-l-1-3 unit-m-1-3 unit-s-1 unit-xs-1">
+              <input type="checkbox" id="monthly">
+              <label class="box" for="monthly">Monthly</label>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="how-to-pay">
+          <div class="unit unit-l-1 unit-m-1 unit-s-1 unit-xs-1">
+              <input type="checkbox" id="credit">
+              <label class="donate-small-text" for="credit"><span class="donate-small-text">Credit</span><img src="http://www.credit-card-logos.com/images/visa_mastercard_amex_credit-card-logos/mc_vs_ax_accpt_h_023_gif.gif" align="left" style="margin-right:7px;"></label>
+          </div>
+          <div class="unit unit-l-1 unit-m-1 unit-s-1 unit-xs-1">
+              <input type="checkbox" id="paypal">
+              <label for="paypal"><span class="donate-small-text">Paypal</span><img src="https://www.paypal.com/en_US/i/logo/PayPal_mark_37x23.gif" align="left" style="margin-right:7px;"></label>
+          </div>
+        </div>
+      </div>
 
-<p>$25 monthly
-<a href="www.paypal.com">Friend </a></p>
 
-<p>$50 monthly
-<a href="www.paypal.com">Neighbor </a></p>
+        <div>
+          <h2> Your Information </h2>
 
-<p>$83.34 monthly
-<a href="www.paypal.com">Organizer </a></p>
+          <hr>
 
-<p>$100 monthly
-<a href="www.paypal.com">Block Captain </a></p>
+          <div>
+            <label class="box" for="name">Full Name*</label>
+            <input class="field" id="name">
+          </div>
 
-<p>$250 monthly
-<a href="www.paypal.com">Placemaker</a></p>
+          <div>
+              <input type="checkbox" id="anon">
+              <label class="donate-small-text" for="anon">Make Donation Anonymous</label>
+          </div>
+
+          <div>
+            <label class="box" for="email">Email*</label>
+            <input class="field" id="email" class="your@email.com">
+          </div>
+
+          <div>
+            <label class="box" for="phone">Phone Number*</label>
+            <input class="field" maxlength="10" type="tel" id="phone">
+          </div>
+
+          <div>
+            <input type="checkbox" id="optin">
+            <label class="donate-small-text" for="optin">It's OK to contact me in the future</label>
+          </div>
+        </div>
+
+        <h2>Payment Details</h2>
+
+        <hr>
+
+        <div>
+          <label class="box" for="name">Name on Card*</label>
+          <input class="field" id="name">
+        </div>
+
+        <div>
+          <label class="box" for="cardnumber">Card Number*</label>
+          <input class="field" id="cardnumber" type="number">
+        </div>
+
+        <div>
+            <label class="box" for="version">Expiration Date*</label>
+            <select id="version">
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            </select>
+            <select id="version">
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            </select>
+        </div>
+
+        <div>
+          <label class="box" for="security">Security Code*</label>
+          <input class="security-field" maxlength="3" id="security" type="password">
+        </div>
+
+        <div>
+            <label class="box" for="country">Country*</label>
+            <select class="field" id="country">
+            <option>United States</option>
+            <option>Canada</option>
+            </select>
+        </div>
+
+        <div>
+          <label class="box" for="address">Address*</label>
+          <input class="field" id="address" type="text">
+        </div>
+
+        <div>
+          <label class="box" for="address">Address 2*</label>
+          <input class="field" id="address" type="text">
+        </div>
+
+        <div>
+          <label class="box" for="city">City*</label>
+          <input class="field" id="city" type="text">
+        </div>
+
+        <div>
+            <label class="box" for="state">State/Province*</label>
+            <select class="field" id="state">
+            <option>New York</option>
+            <option>Ottawa</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="box pad-bottom" for="zip">Zip/Postal Code*</label>
+          <input class="field" id="zip" type="text">
+        </div>
+
+        <hr>
+
+        <div class="big-donate-button-container">
+          <button class="final-donate-button">Donate</button>
+        </div>
+
+        <p>By clicking, I agree to the terms</p>
+
+      </div>
+    </form>
+  </div>
 
 
+  <div class="pad-top text-white">
+    <p>To send your tax-deductible contribution by mail, make your check payable to The Laundromat Project, Inc and mail to: </p>
+  </div>
+
+  <div class="text-white">
+    <p>The Laundromat Project 127 West 127th Street Suite 324 New York, NY 10027 </p>
+  </div>
+
+</div>
