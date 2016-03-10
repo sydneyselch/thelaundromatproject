@@ -26,7 +26,7 @@ body{
 }
 
 h1{
-    color:navy;
+    color:$dark-blue;
 }
 
 .donate-btn{
@@ -435,7 +435,7 @@ height:2em;
 .team {
     color:white;
     padding: 1em 0 0;
-    background-color:navy;    
+    background-color:$dark-blue;    
    
     h1{
         text-align: center; 
@@ -486,12 +486,12 @@ height:2em;
     
     h4{
         margin:0;   
-        color:navy;
+        color:$dark-blue;
     }
     
     h3{
         text-transform: uppercase;
-        color:navy;
+        color:$dark-blue;
         
     }
 }
@@ -511,7 +511,7 @@ height:2em;
 .staff {
     color:white;
     padding: 1em 0 1em;
-    background-color:navy;    
+    background-color:$dark-blue;    
    
     h1{
         text-align: center; 
@@ -553,13 +553,21 @@ height:2em;
     }
     
     li{
-        color:navy;
+        color:$dark-blue;
     }   
     
 }
 
 
 // dontation form start
+
+  .form-holder {
+      margin: 0 auto 0;
+      max-width: 750px;
+      padding: 0 5% 0;
+      background-color: white;
+      border-radius: 10px;
+    }
 
 .donate-container {
   margin: 0 10% 0;
@@ -667,6 +675,11 @@ height:2em;
 /*======================================*/
 @media only screen and (min-width: 40em) {
     
+        .donate-container {
+
+        padding: 8em 0 0;
+    }
+    
  
     
     .mission-container{
@@ -725,17 +738,9 @@ height:2em;
     
       //donation-form
     
-    .donate-container {
-      background-color: blue;
-    }
+  
 
-    .form-holder {
-      margin: 4em auto 0;
-      max-width: 750px;
-      padding: 2em;
-      background-color: white;
-      border-radius: 10px;
-    }
+  
 
     .amount-buttons {
       min-width: 100px;
@@ -836,6 +841,8 @@ body.noscript .navigation{
 }
 
 @media only screen and (min-width: 50em) {
+    
+  
     
       .team {      
         h1{

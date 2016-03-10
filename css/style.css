@@ -450,7 +450,7 @@ body.noscript .toggle-btn {
 }
 
 h1 {
-  color: navy;
+  color: #1B3D5F;
 }
 
 .donate-btn {
@@ -837,7 +837,7 @@ h1 {
 .team {
   color: white;
   padding: 1em 0 0;
-  background-color: navy;
+  background-color: #1B3D5F;
 }
 
 .team h1 {
@@ -882,12 +882,12 @@ h1 {
 
 .circle h4 {
   margin: 0;
-  color: navy;
+  color: #1B3D5F;
 }
 
 .circle h3 {
   text-transform: uppercase;
-  color: navy;
+  color: #1B3D5F;
 }
 
 .team-page h1 {
@@ -901,7 +901,7 @@ h1 {
 .staff {
   color: white;
   padding: 1em 0 1em;
-  background-color: navy;
+  background-color: #1B3D5F;
 }
 
 .staff h1 {
@@ -940,7 +940,15 @@ h1 {
 }
 
 .faculty li {
-  color: navy;
+  color: #1B3D5F;
+}
+
+.form-holder {
+  margin: 0 auto 0;
+  max-width: 750px;
+  padding: 0 5% 0;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .donate-container {
@@ -1043,6 +1051,9 @@ h1 {
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
+  .donate-container {
+    padding: 8em 0 0;
+  }
   .mission-container {
     margin: 0 15% 2em;
   }
@@ -1087,16 +1098,6 @@ h1 {
 }
 
 @media only screen and (max-width: 40em) {
-  .donate-container {
-    background-color: blue;
-  }
-  .form-holder {
-    margin: 4em auto 0;
-    max-width: 750px;
-    padding: 2em;
-    background-color: white;
-    border-radius: 10px;
-  }
   .amount-buttons {
     min-width: 100px;
     min-height: 50px;
