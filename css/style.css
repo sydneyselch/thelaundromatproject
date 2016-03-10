@@ -471,6 +471,11 @@ h1 {
   text-transform: uppercase;
 }
 
+.donate-btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .donate-btn:hover {
   background-color: #005C9B;
 }
