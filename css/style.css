@@ -699,10 +699,8 @@ h1 {
 }
 
 .footer-nav {
-  list-style-type: none;
   padding-left: 100px;
   display: none;
-  right: 0;
 }
 
 .footer-nav li {
@@ -726,6 +724,7 @@ h1 {
 
 .footer-nav li ul {
   padding-left: 0;
+  position: relative;
 }
 
 .footer-nav li li {
@@ -898,7 +897,8 @@ h1 {
 }
 
 .team img {
-  width: 200px;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto 0;
   border: 5px solid white;
@@ -910,6 +910,10 @@ h1 {
 
 .team figure {
   text-align: center;
+}
+
+.team .container {
+  margin: 0 5% 0;
 }
 
 .circle-info h1 {
@@ -988,13 +992,18 @@ h1 {
 .form-holder {
   margin: 0 15% 0;
   max-width: 750px;
-  padding: 0 5% 0;
+  padding: 0 5% 1em;
   background-color: white;
   border-radius: 10px;
 }
 
+.form-holder h1 {
+  padding: 1em 0 0;
+  margin: 0;
+}
+
 .donate-container {
-  margin: 0 10% 0;
+  margin: 0;
 }
 
 .donate-container h2 {
@@ -1102,42 +1111,46 @@ h1 {
   margin: 0 auto 4em;
 }
 
+.program-wrapper h2 {
+  color: #1B3D5F;
+}
+
 .program-wrapper h1 {
-  padding-top: 2em;
+  padding-top: 1em;
   margin: 0;
   text-align: center;
 }
 
 .programs-link {
   color: #F15B4C;
+  /*======================================*/
+  /*===========Media Queeries=================*/
+  /*======================================*/
 }
 
 .programs-link:hover {
   color: #005C9B;
 }
 
-/*======================================*/
-/*===========Media Queeries=================*/
-/*======================================*/
 @media only screen and (min-width: 40em) {
-  .donate-container {
+  .programs-link .donate-container {
     background-color: #F15B4C;
     padding: 90px 0 0;
   }
-  .mission-container {
+  .programs-link .mission-container {
     margin: 0 15% 2em;
   }
-  .mobile-logo {
+  .programs-link .mobile-logo {
     display: none;
   }
-  .top-nav {
+  .programs-link .top-nav {
     display: none;
   }
-  .nav-logo {
+  .programs-link .nav-logo {
     display: block;
     float: left;
   }
-  .desktop-banner {
+  .programs-link .desktop-banner {
     text-transform: lowercase;
     display: block;
     width: 100%;
@@ -1147,39 +1160,45 @@ h1 {
     background-color: white;
     border-bottom: 2px solid #F15B4C;
   }
-  .container {
+  .programs-link .container {
     margin: 0 10% 0;
   }
-  .banner {
+  .programs-link .banner {
     display: none;
   }
-  .top-logo {
+  .programs-link .top-logo {
     margin: .25em 1% .25em;
     text-align: center;
     float: left;
     height: auto;
     position: fixed;
   }
-  .billboard-box {
+  .programs-link .billboard-box {
     width: 60%;
   }
-  .billboard {
+  .programs-link .billboard {
     height: calc(100vh);
+  }
+  .programs-link .team .container {
+    margin: 90px 15% 0;
+  }
+  .programs-link .staff .container {
+    margin: 1em 15% 0;
   }
 }
 
 @media only screen and (max-width: 40em) {
-  .amount-buttons {
+  .programs-link .amount-buttons {
     min-width: 100px;
     min-height: 50px;
   }
-  .site-wrapper {
+  .programs-link .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100;
   }
-  .site-wrapper .sliding-canvas {
+  .programs-link .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
     position: relative;
@@ -1188,15 +1207,15 @@ h1 {
             transform: translateX(0);
     transition: all 300ms ease-in-out;
   }
-  .site-wrapper[data-state="slide-open"] .sliding-canvas {
+  .programs-link .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%);
   }
-  .site-wrapper[data-state="slide-open"] {
+  .programs-link .site-wrapper[data-state="slide-open"] {
     overflow: visible;
   }
-  .navigation {
+  .programs-link .navigation {
     position: absolute;
     width: 100%;
     right: -100%;
@@ -1208,44 +1227,44 @@ h1 {
 }
 
 @media only screen and (min-width: 40em) {
-  .program-wrapper h1 {
-    padding-top: 6em;
+  .programs-link .program-wrapper h1 {
+    padding: 100px 0 0;
     text-align: left;
   }
-  .program-wrapper {
+  .programs-link .program-wrapper {
     max-width: 30em;
   }
-  .toggle-btn,
-  .close-btn {
+  .programs-link .toggle-btn,
+  .programs-link .close-btn {
     display: none;
   }
-  body.noscript .navigation {
+  .programs-link body.noscript .navigation {
     position: static;
     right: auto;
   }
-  .navigation ul {
+  .programs-link .navigation ul {
     list-style-type: none;
     padding-left: 0;
     position: absolute;
     top: 0;
     right: 0;
   }
-  .navigation .close-btn {
+  .programs-link .navigation .close-btn {
     display: none;
   }
-  .navigation li {
+  .programs-link .navigation li {
     display: inline-block;
     width: 5em;
     background-color: white;
   }
-  .navigation a {
+  .programs-link .navigation a {
     border-bottom: 0;
     color: #F15B4C;
   }
-  .navigation li:first-child a {
+  .programs-link .navigation li:first-child a {
     border-top: 0;
   }
-  .navigation a:hover {
+  .programs-link .navigation a:hover {
     text-decoration: line-through;
     color: black;
     transition: all .2s linear;
@@ -1253,31 +1272,31 @@ h1 {
 }
 
 @media only screen and (min-width: 50em) {
-  .team h1 {
+  .programs-link .team h1 {
     margin: 100px 0 0;
   }
-  .circle-info {
+  .programs-link .circle-info {
     margin: 0 20% 0;
   }
-  .mission-container {
+  .programs-link .mission-container {
     margin: 0 30% 2em;
   }
-  .billboard-box {
+  .programs-link .billboard-box {
     width: 40%;
   }
-  #nav li {
+  .programs-link #nav li {
     width: 140px;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .footer-nav {
+  .programs-link .footer-nav {
     display: block;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .billboard-container {
+  .programs-link .billboard-container {
     margin: 0 10% 0;
   }
 }
