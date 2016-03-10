@@ -35,7 +35,7 @@ h1{
     position: fixed;
     right:0;
     background-color: $coral;
-    bottom:260px;
+    bottom:204px;
     z-index: 150;
     color:white;
     border:1px solid white;
@@ -74,6 +74,11 @@ h1{
   height: 110px;
   margin: 1em auto 1em;
   text-align: center;
+}
+
+.mobile-top{
+    
+     border-bottom:2px solid $coral;
 }
 
 
@@ -287,6 +292,9 @@ height:2em;
             a{
                 text-decoration: none;
                 color:white;
+                &:hover{
+                    color: $coral;
+                }
             }
 }
 
@@ -442,13 +450,29 @@ height:2em;
 /*======================================*/
 
 .supporters{
+    padding: 0 5% 0;
 
     ul{
 
         list-style-type: none;
-
     }
+    
+    a{
+        
+        text-decoration: none;
+        color: $dark-blue;
+         &:hover{
+        
+        color:$coral;
+    }
+    }
+    
+   
 
+}
+
+.faculty{
+    padding: 0 5% 0;
 }
 
 
@@ -467,6 +491,7 @@ height:2em;
         font-size: 2.5em;
 
     }
+    
         h2{
             text-align: center;
             line-height: 1em;
@@ -584,7 +609,7 @@ height:2em;
 // dontation form start
 
   .form-holder {
-      margin: 0 auto 0;
+      margin: 0 15% 0;
       max-width: 750px;
       padding: 0 5% 0;
       background-color: white;
@@ -593,6 +618,16 @@ height:2em;
 
 .donate-container {
   margin: 0 10% 0;
+    
+    h2{
+        color: $dark-blue;
+        
+    }
+}
+
+.disclaimer{
+    
+    padding: 0 15% 1em;
 }
 
 .field {
@@ -698,8 +733,8 @@ height:2em;
 @media only screen and (min-width: 40em) {
 
         .donate-container {
-
-        padding: 8em 0 0;
+        background-color: $coral;
+        padding: 90px 0 0;
     }
 
 
