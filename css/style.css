@@ -619,7 +619,6 @@ h1 {
 }
 
 #nav li:hover {
-  background: #005C9B;
   color: white;
   background: #005C9B;
 }
@@ -650,6 +649,8 @@ h1 {
   left: 0;
   top: auto;
   background-color: white;
+  width: 140px;
+  border: 2px solid #005C9B;
 }
 
 /*======================================*/
