@@ -1091,6 +1091,7 @@ h1 {
     position: fixed;
     z-index: 100;
     background-color: white;
+    border-bottom: 2px solid #F15B4C;
   }
   .container {
     margin: 0 10% 0;
