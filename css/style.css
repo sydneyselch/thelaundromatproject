@@ -612,6 +612,7 @@ h1 {
 #nav li:hover {
   background: #005C9B;
   color: white;
+  background: #005C9B;
 }
 
 #nav a {
@@ -840,6 +841,10 @@ h1 {
 /*======================================*/
 /*===========TEAM PAGE=================*/
 /*======================================*/
+.supporters ul {
+  list-style-type: none;
+}
+
 .team {
   color: white;
   padding: 1em 0 0;
