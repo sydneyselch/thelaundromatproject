@@ -458,7 +458,7 @@ h1 {
   height: 40px;
   position: fixed;
   right: 0;
-  background-color: #FF7F50;
+  background-color: #F15B4C;
   bottom: 260px;
   z-index: 150;
   color: white;
@@ -472,7 +472,7 @@ h1 {
 }
 
 .donate-btn:hover {
-  background-color: #4682B4;
+  background-color: #005C9B;
 }
 
 .top-logo {
@@ -627,7 +627,7 @@ h1 {
   top: 2em;
   list-style: none;
   padding-left: 0;
-  background-color: #4682B4;
+  background-color: #005C9B;
   margin: 0 auto 3em;
 }
 
@@ -794,7 +794,7 @@ h1 {
 }
 
 .navigation .close-btn {
-  color: #FF7F50;
+  color: #F15B4C;
 }
 
 .nav ul {
@@ -803,7 +803,7 @@ h1 {
 
 .toggle-btn,
 .close-btn {
-  color: #4682B4;
+  color: #1B3D5F;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -828,7 +828,7 @@ h1 {
 .close-btn {
   margin: 1em;
   font-size: 2em;
-  color: #FF7F50;
+  color: #F15B4C;
 }
 
 /*======================================*/
@@ -943,6 +943,102 @@ h1 {
   color: navy;
 }
 
+.donate-container {
+  margin: 0 10% 0;
+}
+
+.field {
+  width: 50%;
+  border: 1.25px solid #3B3D3D;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  height: 20px;
+  margin: .5em;
+}
+
+.security-field {
+  width: 3em;
+  border: 1.25px solid #3B3D3D;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  height: 20px;
+  margin: .5em;
+}
+
+.box {
+  display: inline-block;
+  font-size: 12px;
+  width: 40%;
+}
+
+.donate-small-text {
+  font-size: 12px;
+}
+
+.amount-buttons {
+  background-color: #3B3D3D;
+  font-size: 14px;
+  color: white;
+  min-width: 80px;
+  max-width: 80px;
+  height: 30px;
+  border: 0px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  margin: .5em;
+}
+
+.donate-button-container {
+  margin: 0 auto 1em;
+}
+
+.amount-buttons:hover,
+.amount-buttons:active,
+.amount-buttons:focus {
+  background-color: #F15B4C;
+}
+
+.donate-amount {
+  width: 40em;
+}
+
+.big-donate-button-container {
+  margin: 0 auto 0;
+}
+
+.final-donate-button {
+  background-color: #3B3D3D;
+  font-size: 20px;
+  color: white;
+  min-width: 125px;
+  max-width: 150px;
+  height: 50px;
+  border: 0px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  margin: 1.5em;
+}
+
+.final-donate-button:hover,
+.final-donate-button:active,
+.final-donate-button:focus {
+  background-color: #F15B4C;
+}
+
+.donate-button-container {
+  max-width: 350px;
+}
+
+.text-white {
+  color: white;
+}
+
+.donate-thank-you {
+  text-align: center;
+  margin: 3em auto 0;
+  font-size: 3em;
+}
+
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
@@ -991,6 +1087,20 @@ h1 {
 }
 
 @media only screen and (max-width: 40em) {
+  .donate-container {
+    background-color: blue;
+  }
+  .form-holder {
+    margin: 4em auto 0;
+    max-width: 750px;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .amount-buttons {
+    min-width: 100px;
+    min-height: 50px;
+  }
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -1051,7 +1161,7 @@ h1 {
   }
   .navigation a {
     border-bottom: 0;
-    color: #FF7F50;
+    color: #F15B4C;
   }
   .navigation li:first-child a {
     border-top: 0;
