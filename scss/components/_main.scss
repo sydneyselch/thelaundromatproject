@@ -725,8 +725,25 @@ height:2em;
 
 // donation-folder end
 
+// programs
+
+.program-wrapper {
+  max-width: 20em;
+  margin: 0 auto 4em;
+}
+
+.program-wrapper h1{
+  text-align: center;
+}
+
+.programs-link {
+  color: $coral;
+  &:hover {
+    color: $blue;
+  }
 
 
+}
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
@@ -737,12 +754,12 @@ height:2em;
         padding: 90px 0 0;
     }
 
-
-
     .mission-container{
         margin: 0 15% 2em;
 
 }
+
+
 
   .mobile-logo {
     display: none;
@@ -793,6 +810,8 @@ height:2em;
 }
 
 @media only screen and (max-width: 40em){
+
+
 
       //donation-form
 
@@ -845,6 +864,17 @@ height:2em;
 }
 
 @media only screen and (min-width: 40em){
+
+  .program-wrapper h1{
+    padding-top: 6em;
+    text-align: left;
+  }
+
+  .program-wrapper{
+    max-width: 30em;
+  }
+
+
     .toggle-btn,
     .close-btn{
         display:none;
@@ -899,7 +929,6 @@ body.noscript .navigation{
 }
 
 @media only screen and (min-width: 50em) {
-
 
 
       .team {

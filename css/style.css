@@ -1096,6 +1096,23 @@ h1 {
   font-size: 3em;
 }
 
+.program-wrapper {
+  max-width: 20em;
+  margin: 0 auto 4em;
+}
+
+.program-wrapper h1 {
+  text-align: center;
+}
+
+.programs-link {
+  color: #F15B4C;
+}
+
+.programs-link:hover {
+  color: #005C9B;
+}
+
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
@@ -1188,6 +1205,13 @@ h1 {
 }
 
 @media only screen and (min-width: 40em) {
+  .program-wrapper h1 {
+    padding-top: 6em;
+    text-align: left;
+  }
+  .program-wrapper {
+    max-width: 30em;
+  }
   .toggle-btn,
   .close-btn {
     display: none;
