@@ -1110,7 +1110,7 @@ h1 {
     width: 60%;
   }
   .billboard {
-    height: calc(100vh - 55px);
+    height: calc(100vh);
   }
 }
 
