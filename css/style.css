@@ -449,11 +449,16 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+h1 {
+  color: #1B3D5F;
+}
+
 .donate-btn {
   width: 100px;
   height: 40px;
   position: fixed;
   right: 0;
+  background-color: #F15B4C;
   bottom: 260px;
   z-index: 150;
   color: white;
@@ -467,7 +472,7 @@ body.noscript .toggle-btn {
 }
 
 .donate-btn:hover {
-  background-color: #F15B4C;
+  background-color: #005C9B;
 }
 
 .top-logo {
@@ -476,7 +481,7 @@ body.noscript .toggle-btn {
 }
 
 .mission-container {
-  margin: 0 10% 0;
+  margin: 0 10% 2em;
 }
 
 /*======================================*/
@@ -605,7 +610,8 @@ body.noscript .toggle-btn {
 }
 
 #nav li:hover {
-  background: #777;
+  background: #005C9B;
+  color: white;
 }
 
 #nav a {
@@ -613,6 +619,10 @@ body.noscript .toggle-btn {
   color: #000;
   text-decoration: none;
   line-height: 2em;
+}
+
+#nav a:hover {
+  color: white;
 }
 
 /* --------- Drop Down -------- */
@@ -629,6 +639,7 @@ body.noscript .toggle-btn {
 #nav li:hover ul {
   left: 0;
   top: auto;
+  background-color: white;
 }
 
 /*======================================*/
@@ -734,6 +745,7 @@ body.noscript .toggle-btn {
 .billboard-box h1 {
   white-space: nowrap;
   padding: .5em 10% .5em;
+  color: white;
 }
 
 .billboard-buttons {
@@ -826,50 +838,123 @@ body.noscript .toggle-btn {
 }
 
 /*======================================*/
-/*===========Media Queeries=================*/
+/*===========TEAM PAGE=================*/
 /*======================================*/
-@media only screen and (min-width: 40em) {
-  .mission-container {
-    margin: 0 15% 0;
-  }
-  .mobile-logo {
-    display: none;
-  }
-  .top-nav {
-    display: none;
-  }
-  .nav-logo {
-    display: block;
-    float: left;
-  }
-  .desktop-banner {
-    text-transform: lowercase;
-    display: block;
-    width: 100%;
-    height: 90px;
-    position: fixed;
-    z-index: 100;
-    background-color: white;
-  }
-  .container {
-    margin: 0 10% 0;
-  }
-  .banner {
-    display: none;
-  }
-  .top-logo {
-    margin: .25em 1% .25em;
-    text-align: center;
-    float: left;
-    height: auto;
-    position: fixed;
-  }
-  .billboard-box {
-    width: 60%;
-  }
-  .billboard {
-    height: calc(100vh - 55px);
-  }
+.team {
+  color: white;
+  padding: 1em 0 0;
+  background-color: #1B3D5F;
+}
+
+.team h1 {
+  text-align: center;
+  color: white;
+  line-height: 1em;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.team h2 {
+  text-align: center;
+  line-height: 1em;
+  margin: .5em auto .5em;
+  font-size: 1em;
+}
+
+.team img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto 0;
+  border: 5px solid white;
+}
+
+.team img:hover {
+  opacity: .5;
+}
+
+.team figure {
+  text-align: center;
+}
+
+.circle-info h1 {
+  text-align: center;
+}
+
+.circle ul {
+  padding-left: 0;
+  list-style-type: none;
+  margin: 0 auto 1em;
+}
+
+.circle h4 {
+  margin: 0;
+  color: #1B3D5F;
+}
+
+.circle h3 {
+  text-transform: uppercase;
+  color: #1B3D5F;
+}
+
+.team-page h1 {
+  font-size: 2.5em;
+}
+
+.team-page h2 {
+  font-size: 1em;
+}
+
+.staff {
+  color: white;
+  padding: 1em 0 1em;
+  background-color: #1B3D5F;
+}
+
+.staff h1 {
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+  font-size: 2.5em;
+  color: white;
+}
+
+.staff h2 {
+  text-align: center;
+  line-height: 1em;
+  margin: .5em auto .5em;
+  font-size: 1em;
+}
+
+.staff img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto 0;
+  border: 5px solid white;
+}
+
+.staff img:hover {
+  opacity: .5;
+}
+
+.staff figure {
+  text-align: center;
+}
+
+.faculty ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.faculty li {
+  color: #1B3D5F;
+}
+
+.form-holder {
+  margin: 0 auto 0;
+  max-width: 750px;
+  padding: 0 5% 0;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .donate-container {
@@ -968,7 +1053,61 @@ body.noscript .toggle-btn {
   font-size: 3em;
 }
 
+/*======================================*/
+/*===========Media Queeries=================*/
+/*======================================*/
+@media only screen and (min-width: 40em) {
+  .donate-container {
+    padding: 8em 0 0;
+  }
+  .mission-container {
+    margin: 0 15% 2em;
+  }
+  .mobile-logo {
+    display: none;
+  }
+  .top-nav {
+    display: none;
+  }
+  .nav-logo {
+    display: block;
+    float: left;
+  }
+  .desktop-banner {
+    text-transform: lowercase;
+    display: block;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+  }
+  .container {
+    margin: 0 10% 0;
+  }
+  .banner {
+    display: none;
+  }
+  .top-logo {
+    margin: .25em 1% .25em;
+    text-align: center;
+    float: left;
+    height: auto;
+    position: fixed;
+  }
+  .billboard-box {
+    width: 60%;
+  }
+  .billboard {
+    height: calc(100vh - 55px);
+  }
+}
+
 @media only screen and (max-width: 40em) {
+  .amount-buttons {
+    min-width: 100px;
+    min-height: 50px;
+  }
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -1000,20 +1139,6 @@ body.noscript .toggle-btn {
     bottom: 0;
     padding: 0;
     min-height: 800px;
-  }
-  .donate-container {
-    background-color: blue;
-  }
-  .form-holder {
-    margin: 4em auto 0;
-    max-width: 750px;
-    padding: 2em;
-    background-color: white;
-    border-radius: 10px;
-  }
-  .amount-buttons {
-    min-width: 100px;
-    min-height: 50px;
   }
 }
 
@@ -1056,8 +1181,14 @@ body.noscript .toggle-btn {
 }
 
 @media only screen and (min-width: 50em) {
+  .team h1 {
+    margin: 100px 0 0;
+  }
+  .circle-info {
+    margin: 0 20% 0;
+  }
   .mission-container {
-    margin: 0 30% 0;
+    margin: 0 30% 2em;
   }
   .billboard-box {
     width: 40%;
