@@ -732,7 +732,7 @@ h1 {
 .billboard {
   height: calc(100vh - 190px);
   width: 100%;
-  background-image: url(../images/artist-profile.jpg);
+  background-image: url(../images/new-york.jpg);
   background-position: center center;
   background-size: cover;
   position: relative;
