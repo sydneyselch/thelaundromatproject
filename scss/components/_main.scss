@@ -25,16 +25,11 @@ body{
 
 }
 
-h1{
-    color:navy;
-}
-
 .donate-btn{
     width: 100px;
     height: 40px;
     position: fixed;
     right:0;
-    background-color: $coral;
     bottom:260px;
     z-index: 150;
     color:white;
@@ -43,11 +38,11 @@ h1{
                 text-align: center;
                 font-size: .75em;
                 text-transform: uppercase;
-            } 
+            }
 }
 
 .donate-btn:hover{
-    background-color: $blue;   
+    background-color: $coral;
 }
 
 .top-logo {
@@ -57,8 +52,8 @@ h1{
 
 
 .mission-container{
-    margin: 0 10% 2em;   
-    
+    margin: 0 10% 0;
+
 }
 
 /*======================================*/
@@ -319,24 +314,23 @@ height:2em;
         position: absolute;
         bottom: 0;
         right:0;
-        
+
             h1{
                 white-space: nowrap;
                 padding: .5em 10% .5em;
-                color:white;
             }
-        
+
     }
 
 .billboard-buttons{
     width:100%;
     height: auto;
     margin: 1em auto 1em;
-    
+
         .buttons{
             text-align: center;
         }
-    
+
             i{
                 margin: 0 5% 0;
             }
@@ -366,41 +360,41 @@ height:2em;
     ul{
         padding:0;
     }
-    
+
     li{
-        list-style-type:none; 
+        list-style-type:none;
         font-size: 1.5em;
         &:first-child a{
              }
-        
+
     }
         a{
             display: block;
             color:$dark-grey;
             text-align: center;
-    
+
             text-decoration: none;
             &:first-child{
                 border-bottom: 0;
             }
     }
-    
+
     .close-btn{
             color:$coral;
-        
+
     }
-    
+
 }
 
 .nav{
     ul{
-        display: none;   
+        display: none;
     }
-    
+
         li{
-            
+
         }
-    
+
 }
 
 
@@ -416,147 +410,18 @@ height:2em;
         display: inline-block;
     }
     span{
-        @include element-invisible;   
+        @include element-invisible;
     }
 }
 
 .close-btn{
-    margin: 1em;  
+    margin: 1em;
     font-size: 2em;
     color: $coral;
 }
 
-/*======================================*/
-/*===========TEAM PAGE=================*/
-/*======================================*/
 
 
-
-.team {
-    color:white;
-    padding: 1em 0 0;
-    background-color:navy;    
-   
-    h1{
-        text-align: center; 
-        color:white;
-        line-height: 1em;
-        margin: 0;
-        font-size: 2.5em;
-       
-    }
-        h2{
-            text-align: center;
-            line-height: 1em;
-            margin: .5em auto .5em;
-            font-size: 1em;
-           
-        }
-        
-        img{
-            width:200px;
-            height: auto;
-            margin: 0 auto 0;
-            border: 5px solid white;
-        }
-            img:hover{
-                opacity: .5;
-            
-        }
-    
-        figure{
-            text-align: center;   
-        }
-    
-}
-
-.circle-info{
-    h1{
-        text-align: center;
-        
-    }
-}
-
-.circle{
-    ul{
-        padding-left: 0;
-        list-style-type: none;
-        margin:0 auto 1em;
-    }
-    
-    h4{
-        margin:0;   
-        color:navy;
-    }
-    
-    h3{
-        text-transform: uppercase;
-        color:navy;
-        
-    }
-}
-
-.team-page{
-    h1{
-        font-size: 2.5em;   
-    }
-    h2{
-       font-size: 1em; 
-    }
-}
-
-
-
-
-.staff {
-    color:white;
-    padding: 1em 0 1em;
-    background-color:navy;    
-   
-    h1{
-        text-align: center; 
-        line-height: 1em;
-        margin: 0;
-        font-size: 2.5em;
-        color:white;
-       
-    }
-        h2{
-            text-align: center;
-            line-height: 1em;
-            margin: .5em auto .5em;
-            font-size: 1em;
-           
-        }
-        
-        img{
-            width:200px;
-            height: auto;
-            margin: 0 auto 0;
-            border: 5px solid white;
-        }
-            img:hover{
-                opacity: .5;
-            
-        }
-    
-        figure{
-            text-align: center;   
-        }
-    
-}
-
-.faculty{
-    ul{
-        list-style-type: none;
-        padding-left: 0;
-    }
-    
-    li{
-        color:navy;
-    }   
-    
-}
 
 
 
@@ -564,12 +429,10 @@ height:2em;
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
-    
- 
-    
+
     .mission-container{
-        margin: 0 15% 2em;   
-    
+    margin: 0 15% 0;
+
 }
 
   .mobile-logo {
@@ -612,15 +475,15 @@ height:2em;
     .billboard-box{
         width: 60%;
     }
-    
-    
+
+
     .billboard {
       height: calc(100vh - 55px);
 }
 }
 
 @media only screen and (max-width: 40em){
-        
+
     .site-wrapper{
         position: relative;
         overflow: hidden;
@@ -633,17 +496,17 @@ height:2em;
                 transform: translateX(0);
                 transition: all 300ms ease-in-out;
             }
-    
+
         &[data-state="slide-open"] .sliding-canvas{
             transform: translateX(-100%);
         }
-        
+
         &[data-state="slide-open"]{
-            
+
             overflow: visible;
         }
     }
-    
+
     .navigation{
         position: absolute;
         width:100%;
@@ -652,11 +515,9 @@ height:2em;
         bottom:0;
         padding: 0;
         min-height: 800px;
-            
+
     }
-    
-  
-    
+
 }
 
 @media only screen and (min-width: 40em){
@@ -669,7 +530,7 @@ body.noscript .navigation{
     position: static;
     right: auto;
 }
-    
+
     .navigation{
         ul{
                 list-style-type: none;
@@ -677,69 +538,59 @@ body.noscript .navigation{
                 position: absolute;
                 top:0;
                 right:0;
-                
+
             }
-        
+
          .close-btn{
                         display:none;
-                        
+
                     }
-        
+
                 li{
                    display: inline-block;
                     width: 5em;
                     background-color: white;
-                    
+
                 }
-                    
+
                      a{
                          border-bottom: 0;
                           color:$coral;
                      }
-                    
-        
+
+
                 li:first-child a{
                     border-top: 0;
-                   
-                    
+
+
                 }
-        
+
                         a:hover{
                             text-decoration: line-through;
                             color:black;
                             transition: all .2s linear;
                         }
-        
-    }   
+
+    }
 }
 
 @media only screen and (min-width: 50em) {
-    
-      .team {      
-        h1{
-        margin: 100px 0 0;
-    }
-    }
-    
-    .circle-info{
-        margin: 0 20% 0;
-}
-    
+
     .mission-container{
-    margin: 0 30% 2em;   
-    
+    margin: 0 30% 0;
+
 }
-    
-    
+
+
     .billboard-box{
         width: 40%;
     }
-    
+
     #nav li {
         width: 140px;
 }
 }
-    
+
 
 
 @media only screen and (min-width: 60em) {
