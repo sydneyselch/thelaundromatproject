@@ -1123,34 +1123,34 @@ h1 {
 
 .programs-link {
   color: #F15B4C;
-  /*======================================*/
-  /*===========Media Queeries=================*/
-  /*======================================*/
 }
 
 .programs-link:hover {
   color: #005C9B;
 }
 
+/*======================================*/
+/*===========Media Queeries=================*/
+/*======================================*/
 @media only screen and (min-width: 40em) {
-  .programs-link .donate-container {
+  .donate-container {
     background-color: #F15B4C;
     padding: 90px 0 0;
   }
-  .programs-link .mission-container {
+  .mission-container {
     margin: 0 15% 2em;
   }
-  .programs-link .mobile-logo {
+  .mobile-logo {
     display: none;
   }
-  .programs-link .top-nav {
+  .top-nav {
     display: none;
   }
-  .programs-link .nav-logo {
+  .nav-logo {
     display: block;
     float: left;
   }
-  .programs-link .desktop-banner {
+  .desktop-banner {
     text-transform: lowercase;
     display: block;
     width: 100%;
@@ -1160,45 +1160,45 @@ h1 {
     background-color: white;
     border-bottom: 2px solid #F15B4C;
   }
-  .programs-link .container {
+  .container {
     margin: 0 10% 0;
   }
-  .programs-link .banner {
+  .banner {
     display: none;
   }
-  .programs-link .top-logo {
+  .top-logo {
     margin: .25em 1% .25em;
     text-align: center;
     float: left;
     height: auto;
     position: fixed;
   }
-  .programs-link .billboard-box {
+  .billboard-box {
     width: 60%;
   }
-  .programs-link .billboard {
+  .billboard {
     height: calc(100vh);
   }
-  .programs-link .team .container {
+  .team .container {
     margin: 90px 15% 0;
   }
-  .programs-link .staff .container {
+  .staff .container {
     margin: 1em 15% 0;
   }
 }
 
 @media only screen and (max-width: 40em) {
-  .programs-link .amount-buttons {
+  .amount-buttons {
     min-width: 100px;
     min-height: 50px;
   }
-  .programs-link .site-wrapper {
+  .site-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     z-index: 100;
   }
-  .programs-link .site-wrapper .sliding-canvas {
+  .site-wrapper .sliding-canvas {
     width: 100%;
     height: 100%;
     position: relative;
@@ -1207,15 +1207,15 @@ h1 {
             transform: translateX(0);
     transition: all 300ms ease-in-out;
   }
-  .programs-link .site-wrapper[data-state="slide-open"] .sliding-canvas {
+  .site-wrapper[data-state="slide-open"] .sliding-canvas {
     -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%);
   }
-  .programs-link .site-wrapper[data-state="slide-open"] {
+  .site-wrapper[data-state="slide-open"] {
     overflow: visible;
   }
-  .programs-link .navigation {
+  .navigation {
     position: absolute;
     width: 100%;
     right: -100%;
@@ -1227,44 +1227,44 @@ h1 {
 }
 
 @media only screen and (min-width: 40em) {
-  .programs-link .program-wrapper h1 {
+  .program-wrapper h1 {
     padding: 100px 0 0;
     text-align: left;
   }
-  .programs-link .program-wrapper {
+  .program-wrapper {
     max-width: 30em;
   }
-  .programs-link .toggle-btn,
-  .programs-link .close-btn {
+  .toggle-btn,
+  .close-btn {
     display: none;
   }
-  .programs-link body.noscript .navigation {
+  body.noscript .navigation {
     position: static;
     right: auto;
   }
-  .programs-link .navigation ul {
+  .navigation ul {
     list-style-type: none;
     padding-left: 0;
     position: absolute;
     top: 0;
     right: 0;
   }
-  .programs-link .navigation .close-btn {
+  .navigation .close-btn {
     display: none;
   }
-  .programs-link .navigation li {
+  .navigation li {
     display: inline-block;
     width: 5em;
     background-color: white;
   }
-  .programs-link .navigation a {
+  .navigation a {
     border-bottom: 0;
     color: #F15B4C;
   }
-  .programs-link .navigation li:first-child a {
+  .navigation li:first-child a {
     border-top: 0;
   }
-  .programs-link .navigation a:hover {
+  .navigation a:hover {
     text-decoration: line-through;
     color: black;
     transition: all .2s linear;
@@ -1272,31 +1272,31 @@ h1 {
 }
 
 @media only screen and (min-width: 50em) {
-  .programs-link .team h1 {
+  .team h1 {
     margin: 100px 0 0;
   }
-  .programs-link .circle-info {
+  .circle-info {
     margin: 0 20% 0;
   }
-  .programs-link .mission-container {
+  .mission-container {
     margin: 0 30% 2em;
   }
-  .programs-link .billboard-box {
+  .billboard-box {
     width: 40%;
   }
-  .programs-link #nav li {
+  #nav li {
     width: 140px;
   }
 }
 
 @media only screen and (min-width: 60em) {
-  .programs-link .footer-nav {
+  .footer-nav {
     display: block;
   }
 }
 
 @media only screen and (min-width: 90em) {
-  .programs-link .billboard-container {
+  .billboard-container {
     margin: 0 10% 0;
   }
 }

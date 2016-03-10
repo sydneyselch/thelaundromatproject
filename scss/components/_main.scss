@@ -6,29 +6,22 @@ html {
   text-size-adjust: 100%;
   font-family: 'Noto Sans', sans-serif;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 .skip-links {
   display: none;
 }
-
 body{
     margin:0;
      &.noscript .close-btn,
   &.noscript .toggle-btn{
       display: none;
   }
-
-
 }
-
 h1{
     color:$dark-blue;
 }
-
 .donate-btn{
     width: 100px;
     height: 40px;
@@ -44,51 +37,38 @@ h1{
                 font-size: .75em;
                 text-transform: uppercase;
             }
-
     a{
      text-decoration: none;
         color:white;
     }
 }
-
 .donate-btn:hover{
     background-color: $blue;
 }
-
 .top-logo {
   margin: 0 5% 0;
   height: auto;
 }
-
-
 .mission-container{
     margin: 0 10% 2em;
-
 }
-
 /*======================================*/
 /*===========MOBILE Navigation=================*/
 /*======================================*/
-
 .mobile-logo {
   height: 110px;
   margin: 1em auto 1em;
   text-align: center;
 }
-
 .mobile-top{
-
      border-bottom:2px solid $coral;
 }
-
-
 .x {
   display: none;
   float: right;
   cursor: pointer;
   margin: 3em 2% 0;
 }
-
 .ham {
   height: 50px;
   width: 50px;
@@ -98,18 +78,15 @@ h1{
   opacity: 1;
   cursor: pointer;
 }
-
 .mobile-nav {
   display: none;
   list-style-type: none;
   padding-left: 0;
   text-align: center;
 }
-
 .mobile-nav ul {
   padding-left: 0;
 }
-
 .top-nav-li {
   color: black;
   font-size: 2em;
@@ -117,17 +94,12 @@ h1{
   border-bottom: 1px solid #efefef;
   display: block;
 }
-
 .top-nav-li:last-child {
   padding: .25em auto 2em;
 }
-
 .mobile-nav a {
   text-decoration: none;
 }
-
-
-
 /* This selected targets the `.nav` only when the checkbox is checked */
 .nav-check:checked ~ .mobile-nav {
   display: block;
@@ -135,39 +107,31 @@ h1{
   margin: 0 auto .25em;
   background-color: rgba(255, 255, 255, 0.95);
 }
-
 .nav-check:checked ~ .nav-label .ham {
   display: none;
 }
-
 .nav-check:checked ~ .nav-label .x {
   display: block;
   float: right;
   height: 50px;
   width: 50px;
 }
-
 .nav-check {
   /* Put the checkbox off the top of the screen */
   position: absolute;
   top: -6em;
 }
-
 /*======================================*/
 /*===========Desktop Navigation=================*/
 /*======================================*/
-
 .nav-logo {
   height: 110px;
   margin: .5em auto .5em;
   text-align: center;
 }
-
-
 .nav-logo {
   display: none;
 }
-
 .desktop-top {
   height: auto;
   position: absolute;
@@ -175,15 +139,12 @@ h1{
   left: 0;
   width: 100%;
 }
-
 .desktop-banner {
   display: none;
 }
-
 .desktop-nav ul li.middle {
   display: none;
 }
-
 #nav {
 list-style:none;
 height:2em;
@@ -204,7 +165,6 @@ height:2em;
   color: white;
   background: $blue;
 }
-
 #nav a {
     display:block;
     color:#000;
@@ -223,7 +183,6 @@ height:2em;
     padding-left: 0;
     background-color: $blue;
     margin: 0 auto 3em;
-
 }
 #nav li:hover ul {
     left:0;
@@ -232,10 +191,6 @@ height:2em;
     width: 140px;
     border: 2px solid $blue;
 }
-
-
-
-
 /*======================================*/
 /*===========Footer=================*/
 /*======================================*/
@@ -244,45 +199,37 @@ height:2em;
   padding-left: 0;
   text-align: center;
 }
-
 .company-info a {
   text-decoration: none;
   color: white;
 }
-
 .footer-logo {
   height: 100px;
   margin: .5em auto .5em;
   text-align: center;
   display: block;
 }
-
 .footer {
   background-color: #494f50;
   color: white;
   height: 400px;
   overflow: hidden;
 }
-
 .social-container {
   list-style-type: none;
   padding-left: 0;
   margin: 0 20% 0;
 }
-
 .social {
   display: inline-block;
   margin: 1em 5% 1em;
   opacity: .5;
   width: 20%;
 }
-
 .social:hover {
   opacity: 1;
 }
-
 .footer-nav{
- 
     padding-left: 100px;
     display: none;
         li{
@@ -298,13 +245,9 @@ height:2em;
                 }
             }
 }
-
 .footer-nav li:last-child{
     margin-right:0;
-
 }
-
-
 .footer-nav li{
     ul{
         padding-left: 0;
@@ -314,13 +257,11 @@ height:2em;
             margin:0;
         }
 }
-
 .social a {
   text-decoration: none;
   font-size: 2em;
   color: white;
 }
-
 .billboard {
       height: calc(100vh - 190px);
       width: 100%;
@@ -328,9 +269,7 @@ height:2em;
         background-position: center center;
         background-size: cover;
         position: relative;
-
 }
-
 .billboard-box{
         background-color: rgba(51, 61, 61, .75);
         color:white;
@@ -339,40 +278,30 @@ height:2em;
         position: absolute;
         bottom: 0;
         right:0;
-
             h1{
                 white-space: nowrap;
                 padding: .5em 10% .5em;
                 color:white;
             }
-
     }
-
 .billboard-buttons{
     width:100%;
     height: auto;
     margin: 1em auto 1em;
-
         .buttons{
             text-align: center;
         }
-
             i{
                 margin: 0 5% 0;
             }
 }
-
-
 .copyright {
   font-size: .75em;
   text-align: center;
 }
-
 .container{
     margin: 0 10% 0;
-
 }
-
 .toggle-btn{
     position: absolute;
     right: 1em;
@@ -380,50 +309,36 @@ height:2em;
     font-size: 2em;
     color: $dark-grey;
 }
-
-
 .navigation{
     ul{
         padding:0;
     }
-
     li{
         list-style-type:none;
         font-size: 1.5em;
         &:first-child a{
              }
-
     }
         a{
             display: block;
             color:$dark-grey;
             text-align: center;
-
             text-decoration: none;
             &:first-child{
                 border-bottom: 0;
             }
     }
-
     .close-btn{
             color:$coral;
-
     }
-
 }
-
 .nav{
     ul{
         display: none;
     }
-
         li{
-
         }
-
 }
-
-
 .toggle-btn,
 .close-btn{
     color: $text-color;
@@ -439,25 +354,19 @@ height:2em;
         @include element-invisible;
     }
 }
-
 .close-btn{
     margin: 1em;
     font-size: 2em;
     color: $coral;
 }
-
 /*======================================*/
 /*===========TEAM PAGE=================*/
 /*======================================*/
-
 .supporters{
     padding: 0 5% 0;
-
     ul{
-
         list-style-type: none;
     }
-
     a{
         text-decoration: none;
         color: $dark-blue;
@@ -466,34 +375,26 @@ height:2em;
                     }
     }
 }
-
 .faculty{
     padding: 0 5% 0;
 }
-
-
 .team {
     color:white;
     padding: 1em 0 0;
     background-color:$dark-blue;
-
     h1{
         text-align: center;
         color:white;
         line-height: 1em;
         margin: 0;
         font-size: 2.5em;
-
     }
-
         h2{
             text-align: center;
             line-height: 1em;
             margin: .5em auto .5em;
             font-size: 1em;
-
         }
-
         img{
             width:100%;
             max-width: 100%;
@@ -503,45 +404,34 @@ height:2em;
         }
             img:hover{
                 opacity: .5;
-
         }
-
         figure{
             text-align: center;
         }
-    
     .container{
             margin: 0 5% 0;
     }
-
 }
-
 .circle-info{
     h1{
         text-align: center;
-
     }
 }
-
 .circle{
     ul{
         padding-left: 0;
         list-style-type: none;
         margin:0 auto 1em;
     }
-
     h4{
         margin:0;
         color:$dark-blue;
     }
-
     h3{
         text-transform: uppercase;
         color:$dark-blue;
-
     }
 }
-
 .team-page{
     h1{
         font-size: 2.5em;
@@ -550,31 +440,23 @@ height:2em;
        font-size: 1em;
     }
 }
-
-
-
-
 .staff {
     color:white;
     padding: 1em 0 1em;
     background-color:$dark-blue;
-
     h1{
         text-align: center;
         line-height: 1em;
         margin: 0;
         font-size: 2.5em;
         color:white;
-
     }
         h2{
             text-align: center;
             line-height: 1em;
             margin: .5em auto .5em;
             font-size: 1em;
-
         }
-
         img{
             width:200px;
             height: auto;
@@ -583,55 +465,41 @@ height:2em;
         }
             img:hover{
                 opacity: .5;
-
         }
-
         figure{
             text-align: center;
         }
-
 }
-
 .faculty{
     ul{
         list-style-type: none;
         padding-left: 0;
     }
-
     li{
         color:$dark-blue;
     }
-
 }
 // dontation form start
-
   .form-holder {
       margin: 0 15% 0;
       max-width: 750px;
       padding: 0 5% 1em;
       background-color: white;
       border-radius: 10px;
-      
       h1{
           padding:1em 0 0;
           margin: 0;
       }
     }
-
 .donate-container {
   margin: 0;
-
     h2{
         color: $dark-blue;
-
     }
 }
-
 .disclaimer{
-
     padding: 0 15% 1em;
 }
-
 .field {
   width: 50%;
   border: 1.25px solid $dark-grey;
@@ -640,7 +508,6 @@ height:2em;
   height: 20px;
   margin: .5em;
 }
-
 .security-field{
   width: 3em;
   border: 1.25px solid $dark-grey;
@@ -649,17 +516,14 @@ height:2em;
   height: 20px;
   margin: .5em;
 }
-
 .box {
   display: inline-block;
   font-size: 12px;
   width:40%;
 }
-
 .donate-small-text {
   font-size: 12px;
 }
-
 .amount-buttons {
   background-color: $dark-grey;
   font-size: 14px;
@@ -672,25 +536,20 @@ height:2em;
   text-transform: uppercase;
   margin: .5em ;
 }
-
 .donate-button-container{
   margin: 0 auto 1em;
 }
-
 .amount-buttons:hover,
 .amount-buttons:active,
 .amount-buttons:focus {
   background-color: $coral;
 }
-
 .donate-amount {
   width: 40em;
 }
-
 .big-donate-button-container {
   margin: 0 auto 0;
 }
-
 .final-donate-button {
   background-color: $dark-grey;
   font-size: 20px;
@@ -702,83 +561,65 @@ height:2em;
   border-radius: 8px;
   text-transform: uppercase;
   margin: 1.5em;
-
 }
-
 .final-donate-button:hover,
 .final-donate-button:active,
 .final-donate-button:focus {
   background-color: $coral;
 }
-
 .donate-button-container {
   max-width: 350px;
 }
-
 .text-white {
   color: white;
 }
-
 .donate-thank-you {
   text-align: center;
   margin: 3em auto 0;
   font-size: 3em;
 }
-
 // donation-folder end
-
 // programs
-
 .program-wrapper {
   max-width: 20em;
   margin: 0 auto 4em;
-    
     h2{
         color: $dark-blue;
     }
 }
-
 .program-wrapper h1{
   padding-top: 1em;
   margin: 0;
   text-align: center;
 }
-
 .programs-link {
   color: $coral;
   &:hover {
     color: $blue;
   }
-    
-
+}
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
-
-        .donate-container {
-        background-color: $coral;
-        padding: 90px 0 0;
-        }
-
+    .donate-container {
+    background-color: $coral;
+    padding: 90px 0 0;
+    }
     .mission-container{
-        margin: 0 15% 2em;
-
-        }
-
-
-
-  .mobile-logo {
+    margin: 0 15% 2em;
+    }
+    .mobile-logo {
     display: none;
-  }
-  .top-nav {
+    }
+    .top-nav {
     display: none;
-  }
-  .nav-logo {
+    }
+    .nav-logo {
     display: block;
     float: left;
-  }
-  .desktop-banner {
+    }
+    .desktop-banner {
     text-transform: lowercase;
     display: block;
     width: 100%;
@@ -787,77 +628,61 @@ height:2em;
       z-index: 100;
       background-color:white;
       border-bottom: 2px solid $coral;
-
-  }
-
-
-.container{
-    margin: 0 10% 0;
-
-}
-
-  .banner {
+    }
+    .container{
+        margin: 0 10% 0;
+    }
+    .banner {
     display: none;
-  }
-  .top-logo {
+    }
+    .top-logo {
         margin: .25em 1% .25em;
         text-align: center;
         float: left;
         height: auto;
           position: fixed;
-  }
+    }
     .billboard-box{
         width: 60%;
     }
-
-
     .billboard {
       height: calc(100vh);
-}
+    }
     .team{
-     .container{
-            margin: 90px 15% 0;
+        .container{
+        margin: 90px 15% 0;
+        }
     }
-    }
-    
     .staff{
-     .container{
-            margin: 1em 15% 0;
-    }
+        .container{
+        margin: 1em 15% 0;
+        }
     }
 }
-
 @media only screen and (max-width: 40em){
-
     .amount-buttons {
       min-width: 100px;
       min-height: 50px;
     }
-
-
     .site-wrapper{
         position: relative;
         overflow: hidden;
         width: 100%;
         z-index: 100;
-            .sliding-canvas{
-                width:100%;
-                height: 100%;
-                position: relative;
-                transform: translateX(0);
-                transition: all 300ms ease-in-out;
-            }
-
+        .sliding-canvas{
+            width:100%;
+            height: 100%;
+            position: relative;
+            transform: translateX(0);
+            transition: all 300ms ease-in-out;
+        }
         &[data-state="slide-open"] .sliding-canvas{
             transform: translateX(-100%);
         }
-
         &[data-state="slide-open"]{
-
             overflow: visible;
         }
     }
-
     .navigation{
         position: absolute;
         width:100%;
@@ -866,114 +691,78 @@ height:2em;
         bottom:0;
         padding: 0;
         min-height: 800px;
-
     }
 }
-
 @media only screen and (min-width: 40em){
-
-  .program-wrapper h1{
+    .program-wrapper h1{
     padding: 100px 0 0;
     text-align: left;
-  }
-
-  .program-wrapper{
+    }
+    .program-wrapper{
     max-width: 30em;
-  }
-
-
+    }
     .toggle-btn,
     .close-btn{
         display:none;
-}
-
-body.noscript .navigation{
+    }
+    body.noscript .navigation{
     position: static;
     right: auto;
-}
-
+    }
     .navigation{
         ul{
-                list-style-type: none;
-                padding-left: 0;
-                position: absolute;
-                top:0;
-                right:0;
-
-            }
-
-         .close-btn{
-                        display:none;
-
-                    }
-
-                li{
-                   display: inline-block;
-                    width: 5em;
-                    background-color: white;
-
-                }
-
-                     a{
-                         border-bottom: 0;
-                          color:$coral;
-                     }
-
-
-                li:first-child a{
-                    border-top: 0;
-
-
-                }
-
-                        a:hover{
-                            text-decoration: line-through;
-                            color:black;
-                            transition: all .2s linear;
-                        }
-
-            }
-}
-
-@media only screen and (min-width: 50em) {
-
-
-      .team {
-        h1{
-        margin: 100px 0 0;
+        list-style-type: none;
+        padding-left: 0;
+        position: absolute;
+        top:0;
+        right:0;
+        }
+        .close-btn{
+        display:none;
+        }
+        li{
+        display: inline-block;
+        width: 5em;
+        background-color: white;
+        }
+        a{
+        border-bottom: 0;
+        color:$coral;
+        }
+        li:first-child a{
+        border-top: 0;
+        }
+        a:hover{
+        text-decoration: line-through;
+        color:black;
+        transition: all .2s linear;
+        }
     }
 }
-
+@media only screen and (min-width: 50em) {
+    .team {
+        h1{
+        margin: 100px 0 0;
+        }
+    }
     .circle-info{
         margin: 0 20% 0;
-}
-
+    }
     .mission-container{
     margin: 0 30% 2em;
-
-}
-
-
+    }
     .billboard-box{
         width: 40%;
     }
-
     #nav li {
         width: 140px;
     }
 }
-
-
-
 @media only screen and (min-width: 60em) {
-
     .footer-nav{
         display:block;
-
     }
-
 }
-
 @media only screen and (min-width: 90em) {
     .billboard-container{
         margin: 0 10% 0;
