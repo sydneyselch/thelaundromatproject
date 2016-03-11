@@ -1125,10 +1125,26 @@ h1 {
 
 .programs-link {
   color: #F15B4C;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: white;
+  padding: .5em;
+  text-decoration: none;
 }
 
 .programs-link:hover {
   color: #005C9B;
+}
+
+.programs {
+  padding: 1em 10% 2em;
+  background-color: #1B3D5F;
+  border-radius: 8px;
+  color: white;
+}
+
+.programs h1 {
+  color: white;
 }
 
 /*======================================*/
@@ -1138,6 +1154,11 @@ h1 {
   .donate-container {
     background-color: #F15B4C;
     padding: 90px 0 0;
+  }
+  .jobs-page .container {
+    padding: 90px 0 0;
+    max-width: 30em;
+    margin: 0 auto 0;
   }
   .mission-container {
     margin: 0 15% 2em;
@@ -1275,7 +1296,7 @@ h1 {
 
 @media only screen and (min-width: 50em) {
   .form-holder {
-    margin: 0 25% 0;
+    margin: 10px 25% 0;
   }
   .disclaimer {
     margin: 0 15% 0;
