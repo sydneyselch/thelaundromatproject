@@ -32,6 +32,7 @@ h1{
     z-index: 150;
     color:white;
     border:1px solid white;
+    border-radius: 8px;
             h2{
                 text-align: center;
                 font-size: .75em;
@@ -88,7 +89,7 @@ h1{
   padding-left: 0;
 }
 .top-nav-li {
-  color: black;
+  color: $coral;
   font-size: 2em;
   padding: .25em 0 .25em;
   border-bottom: 1px solid #efefef;
@@ -160,6 +161,7 @@ height:2em;
     display:inline-block;
     width: 115px;
     text-align:center;
+    color: $coral;
 }
 #nav li:hover {
   color: white;
@@ -316,6 +318,7 @@ height:2em;
     li{
         list-style-type:none;
         font-size: 1.5em;
+        color: $coral;
         &:first-child a{
              }
     }
@@ -482,7 +485,6 @@ height:2em;
 // dontation form start
   .form-holder {
       margin: 0 15% 0;
-      max-width: 750px;
       padding: 0 5% 1em;
       background-color: white;
       border-radius: 10px;
@@ -740,6 +742,16 @@ height:2em;
     }
 }
 @media only screen and (min-width: 50em) {
+    
+      .form-holder {
+      margin: 0 25% 0;  
+      }
+    
+     .disclaimer {
+      margin: 0 15% 0;  
+      }
+    
+    
     .team {
         h1{
         margin: 100px 0 0;
