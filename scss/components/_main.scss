@@ -22,30 +22,11 @@ body{
 h1{
     color:$dark-blue;
 }
+
 .donate-btn{
-    width: 100px;
-    height: 40px;
-    position: fixed;
-    right:0;
-    background-color: $coral;
-    bottom:204px;
-    z-index: 150;
-    color:white;
-    border:1px solid white;
-    border-radius: 8px;
-            h2{
-                text-align: center;
-                font-size: .75em;
-                text-transform: uppercase;
-            }
-    a{
-     text-decoration: none;
-        color:white;
-    }
+    display:none; 
 }
-.donate-btn:hover{
-    background-color: $blue;
-}
+
 .top-logo {
   margin: 0 5% 0;
   height: auto;
@@ -312,7 +293,12 @@ height:2em;
     color: $dark-grey;
 }
 .navigation{
+    h2{
+        text-align: center;
+        color:$coral;
+    }
     ul{
+        margin:0;
         padding:0;
     }
     li{
@@ -445,23 +431,18 @@ height:2em;
 }
 .staff {
     color:white;
-    padding: 1em 0 1em;
+    padding: .5em 0 1em;
     background-color:$dark-blue;
     h1{
         text-align: center;
-        line-height: 1em;
-        margin: 0;
-        font-size: 2.5em;
         color:white;
+        line-height: 1em;
+        margin: 0 0 1em;
+        font-size: 2.5em;
     }
-        h2{
-            text-align: center;
-            line-height: 1em;
-            margin: .5em auto .5em;
-            font-size: 1em;
-        }
         img{
-            width:200px;
+            width:100%;
+            max-width: 100%;
             height: auto;
             margin: 0 auto 0;
             border: 5px solid white;
@@ -472,6 +453,9 @@ height:2em;
         figure{
             text-align: center;
         }
+    .container{
+            margin: 0 5% 0;
+    }
 }
 .faculty{
     ul{
@@ -629,7 +613,7 @@ height:2em;
 }
 
 .navy{
-    padding: 5em 10% 2em;
+    padding: 1em 10% 2em;
     background-color: $dark-blue;
     border-radius: 8px;
     color:white;
@@ -682,7 +666,7 @@ height:2em;
     .container{
         padding: 0 auto 4em;
             h1{
-                margin: 3em 0 0;   
+                margin: 0;   
             }
         
             h2{
@@ -704,6 +688,7 @@ height:2em;
     height: 300px;
     width: 100%;
     padding: 1em;
+
         h3{
             margin:0; 
             color: $coral;
@@ -717,28 +702,117 @@ height:2em;
 .projects-page{
     .container{
         padding: 0 auto 4em;
-            h1{
-                padding: 4em 0 0;   
-            }
-        
+           
             h2{
                 margin:0;
+                color:$coral;
             }
-        
-            a{
-                color: $coral;
-            }   
+        h1{
+            text-align: center;   
+        }
     }   
-    
 }
+
+    .events-page{
+    .container{
+                
+                h2{
+                   color: $dark-blue;
+                }
+}
+}
+.event{
+    height: auto;
+    width: 100%;
+    padding: 1em;
+    margin: 1em 0 1em;
+
+        h3{
+            margin:0; 
+            color: $coral;
+        }
+}
+
+
+
+
+
+
 
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
+
 @media only screen and (min-width: 40em) {
+    
+    .events-page{
+    .container{
+            .coral-back{
+                
+                h1{
+                    margin: 3em 0 0;
+                }
+            }
+}
+}
+    
+    .title{
+    padding: 4em 0 0;  
+
+           
+}
+    
+    .navy{
+    padding: 6em 10% 2em;
+    }
+    
+    .press-page{
+        .container{
+            padding: 0 auto 4em;
+                h1{
+                    margin: 4em 0 0;   
+                }
+        }
+    }
+    
+        .about-page{
+        .container{
+            padding: 0 auto 4em;
+                h1{
+                    margin: 4em 0 0;   
+                }
+        }
+    }
+    
+    .donate-btn{
+        width: 100px;
+        height: 40px;
+        position: fixed;
+        display: block;
+        right:0;
+        background-color: $coral;
+        bottom:204px;
+        z-index: 150;
+        color:white;
+        border:1px solid white;
+        border-radius: 8px;
+                h2{
+                    text-align: center;
+                    font-size: .75em;
+                    text-transform: uppercase;
+                }
+        a{
+         text-decoration: none;
+            color:white;
+        }
+    }
+    .donate-btn:hover{
+        background-color: $blue;
+    }
+
     .donate-container {
-    background-color: $coral;
-    padding: 90px 0 0;
+        background-color: $coral;
+        padding: 90px 0 0;
     }
 
     .jobs-page {
@@ -799,7 +873,7 @@ height:2em;
     }
     .staff{
         .container{
-        margin: 1em 15% 0;
+        margin: 90px 15% 0;
         }
     }
 }

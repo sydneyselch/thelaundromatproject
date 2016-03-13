@@ -454,31 +454,7 @@ h1 {
 }
 
 .donate-btn {
-  width: 100px;
-  height: 40px;
-  position: fixed;
-  right: 0;
-  background-color: #F15B4C;
-  bottom: 204px;
-  z-index: 150;
-  color: white;
-  border: 1px solid white;
-  border-radius: 8px;
-}
-
-.donate-btn h2 {
-  text-align: center;
-  font-size: .75em;
-  text-transform: uppercase;
-}
-
-.donate-btn a {
-  text-decoration: none;
-  color: white;
-}
-
-.donate-btn:hover {
-  background-color: #005C9B;
+  display: none;
 }
 
 .top-logo {
@@ -795,7 +771,13 @@ h1 {
   color: #3B3D3D;
 }
 
+.navigation h2 {
+  text-align: center;
+  color: #F15B4C;
+}
+
 .navigation ul {
+  margin: 0;
   padding: 0;
 }
 
@@ -949,27 +931,21 @@ h1 {
 
 .staff {
   color: white;
-  padding: 1em 0 1em;
+  padding: .5em 0 1em;
   background-color: #1B3D5F;
 }
 
 .staff h1 {
   text-align: center;
-  line-height: 1em;
-  margin: 0;
-  font-size: 2.5em;
   color: white;
-}
-
-.staff h2 {
-  text-align: center;
   line-height: 1em;
-  margin: .5em auto .5em;
-  font-size: 1em;
+  margin: 0 0 1em;
+  font-size: 2.5em;
 }
 
 .staff img {
-  width: 200px;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: 0 auto 0;
   border: 5px solid white;
@@ -981,6 +957,10 @@ h1 {
 
 .staff figure {
   text-align: center;
+}
+
+.staff .container {
+  margin: 0 5% 0;
 }
 
 .faculty ul {
@@ -1159,7 +1139,7 @@ h1 {
 }
 
 .navy {
-  padding: 5em 10% 2em;
+  padding: 1em 10% 2em;
   background-color: #1B3D5F;
   border-radius: 8px;
   color: white;
@@ -1211,7 +1191,7 @@ h1 {
 }
 
 .press-page .container h1 {
-  margin: 3em 0 0;
+  margin: 0;
 }
 
 .press-page .container h2 {
@@ -1243,15 +1223,28 @@ h1 {
   padding: 0 auto 4em;
 }
 
-.projects-page .container h1 {
-  padding: 4em 0 0;
-}
-
 .projects-page .container h2 {
   margin: 0;
+  color: #F15B4C;
 }
 
-.projects-page .container a {
+.projects-page .container h1 {
+  text-align: center;
+}
+
+.events-page .container h2 {
+  color: #1B3D5F;
+}
+
+.event {
+  height: auto;
+  width: 100%;
+  padding: 1em;
+  margin: 1em 0 1em;
+}
+
+.event h3 {
+  margin: 0;
   color: #F15B4C;
 }
 
@@ -1259,6 +1252,52 @@ h1 {
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
+  .events-page .container .coral-back h1 {
+    margin: 3em 0 0;
+  }
+  .title {
+    padding: 4em 0 0;
+  }
+  .navy {
+    padding: 6em 10% 2em;
+  }
+  .press-page .container {
+    padding: 0 auto 4em;
+  }
+  .press-page .container h1 {
+    margin: 4em 0 0;
+  }
+  .about-page .container {
+    padding: 0 auto 4em;
+  }
+  .about-page .container h1 {
+    margin: 4em 0 0;
+  }
+  .donate-btn {
+    width: 100px;
+    height: 40px;
+    position: fixed;
+    display: block;
+    right: 0;
+    background-color: #F15B4C;
+    bottom: 204px;
+    z-index: 150;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+  }
+  .donate-btn h2 {
+    text-align: center;
+    font-size: .75em;
+    text-transform: uppercase;
+  }
+  .donate-btn a {
+    text-decoration: none;
+    color: white;
+  }
+  .donate-btn:hover {
+    background-color: #005C9B;
+  }
   .donate-container {
     background-color: #F15B4C;
     padding: 90px 0 0;
@@ -1314,7 +1353,7 @@ h1 {
     margin: 90px 15% 0;
   }
   .staff .container {
-    margin: 1em 15% 0;
+    margin: 90px 15% 0;
   }
 }
 
