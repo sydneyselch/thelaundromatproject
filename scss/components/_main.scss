@@ -612,9 +612,39 @@ height:2em;
     border-radius: 8px;
     color:white;
         h1{
-            color:white;   
+            color:white;
         }
-  
+
+}
+
+/*======================================*/
+/*===========Shop Page=================*/
+/*======================================*/
+
+.shop {
+  margin: 0 auto 0;
+}
+
+.shop-img {
+  height: 80vh;
+  position: absolute;
+}
+
+.shop ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.shop-title {
+  padding: 0;
+  margin: 0;
+}
+
+.shop-intro {
+  background-color: $light-grey;
+  position: relative;
+  padding: 2em;
+  border-radius: 8px;
 }
 /*======================================*/
 /*===========Media Queeries=================*/
@@ -624,7 +654,7 @@ height:2em;
     background-color: $coral;
     padding: 90px 0 0;
     }
-    
+
     .jobs-page {
         .container{
     padding: 90px 0 0;
@@ -632,8 +662,8 @@ height:2em;
             margin:0 auto 0;
         }
     }
-    
-    
+
+
     .mission-container{
     margin: 0 15% 2em;
     }
@@ -768,16 +798,16 @@ height:2em;
     }
 }
 @media only screen and (min-width: 50em) {
-    
+
       .form-holder {
-      margin: 10px 25% 0;  
+      margin: 10px 25% 0;
       }
-    
+
      .disclaimer {
-      margin: 0 15% 0;  
+      margin: 0 15% 0;
       }
-    
-    
+
+
     .team {
         h1{
         margin: 100px 0 0;
