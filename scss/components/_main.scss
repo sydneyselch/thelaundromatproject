@@ -617,6 +617,33 @@ height:2em;
 
 }
 
+.coral-back{
+    padding: 1em 10% 2em;
+    background-color: $coral;
+    border-radius: 8px;
+    color:white;
+        h1{
+            color:white;
+        }
+
+}
+
+.navy{
+    padding: 5em 10% 2em;
+    background-color: $dark-blue;
+    border-radius: 8px;
+    color:white;
+        h1{
+            color:white;
+        }
+        
+    h2{
+        margin:0;   
+        padding: 0;
+    }
+
+}
+
 /*======================================*/
 /*===========Shop Page=================*/
 /*======================================*/
@@ -646,6 +673,65 @@ height:2em;
   padding: 2em;
   border-radius: 8px;
 }
+
+/*======================================*/
+/*===========Press Page=================*/
+/*======================================*/
+
+.press-page{
+    .container{
+        padding: 0 auto 4em;
+            h1{
+                margin: 3em 0 0;   
+            }
+        
+            h2{
+                margin:0;
+            }
+        
+            a{
+                color: $coral;
+            }   
+    }   
+    
+}
+
+/*======================================*/
+/*===========ABOUT=================*/
+/*======================================*/
+
+.value{
+    height: 300px;
+    width: 100%;
+    padding: 1em;
+        h3{
+            margin:0; 
+            color: $coral;
+        }
+}
+
+/*======================================*/
+/*===========Projects Page=================*/
+/*======================================*/
+
+.projects-page{
+    .container{
+        padding: 0 auto 4em;
+            h1{
+                padding: 4em 0 0;   
+            }
+        
+            h2{
+                margin:0;
+            }
+        
+            a{
+                color: $coral;
+            }   
+    }   
+    
+}
+
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/

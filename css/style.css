@@ -1147,6 +1147,33 @@ h1 {
   color: white;
 }
 
+.coral-back {
+  padding: 1em 10% 2em;
+  background-color: #F15B4C;
+  border-radius: 8px;
+  color: white;
+}
+
+.coral-back h1 {
+  color: white;
+}
+
+.navy {
+  padding: 5em 10% 2em;
+  background-color: #1B3D5F;
+  border-radius: 8px;
+  color: white;
+}
+
+.navy h1 {
+  color: white;
+}
+
+.navy h2 {
+  margin: 0;
+  padding: 0;
+}
+
 /*======================================*/
 /*===========Shop Page=================*/
 /*======================================*/
@@ -1174,6 +1201,58 @@ h1 {
   position: relative;
   padding: 2em;
   border-radius: 8px;
+}
+
+/*======================================*/
+/*===========Press Page=================*/
+/*======================================*/
+.press-page .container {
+  padding: 0 auto 4em;
+}
+
+.press-page .container h1 {
+  margin: 3em 0 0;
+}
+
+.press-page .container h2 {
+  margin: 0;
+}
+
+.press-page .container a {
+  color: #F15B4C;
+}
+
+/*======================================*/
+/*===========ABOUT=================*/
+/*======================================*/
+.value {
+  height: 300px;
+  width: 100%;
+  padding: 1em;
+}
+
+.value h3 {
+  margin: 0;
+  color: #F15B4C;
+}
+
+/*======================================*/
+/*===========Projects Page=================*/
+/*======================================*/
+.projects-page .container {
+  padding: 0 auto 4em;
+}
+
+.projects-page .container h1 {
+  padding: 4em 0 0;
+}
+
+.projects-page .container h2 {
+  margin: 0;
+}
+
+.projects-page .container a {
+  color: #F15B4C;
 }
 
 /*======================================*/
