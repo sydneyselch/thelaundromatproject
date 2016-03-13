@@ -24,7 +24,7 @@ h1{
 }
 
 .donate-btn{
-    display:none; 
+    display:none;
 }
 
 .top-logo {
@@ -620,9 +620,9 @@ height:2em;
         h1{
             color:white;
         }
-        
+
     h2{
-        margin:0;   
+        margin:0;
         padding: 0;
     }
 
@@ -666,18 +666,18 @@ height:2em;
     .container{
         padding: 0 auto 4em;
             h1{
-                margin: 0;   
+                margin: 0;
             }
-        
+
             h2{
                 margin:0;
             }
-        
+
             a{
                 color: $coral;
-            }   
-    }   
-    
+            }
+    }
+
 }
 
 /*======================================*/
@@ -690,7 +690,7 @@ height:2em;
     padding: 1em;
 
         h3{
-            margin:0; 
+            margin:0;
             color: $coral;
         }
 }
@@ -702,20 +702,20 @@ height:2em;
 .projects-page{
     .container{
         padding: 0 auto 4em;
-           
+
             h2{
                 margin:0;
                 color:$coral;
             }
         h1{
-            text-align: center;   
+            text-align: center;
         }
-    }   
+    }
 }
 
     .events-page{
     .container{
-                
+
                 h2{
                    color: $dark-blue;
                 }
@@ -728,7 +728,7 @@ height:2em;
     margin: 1em 0 1em;
 
         h3{
-            margin:0; 
+            margin:0;
             color: $coral;
         }
 }
@@ -744,46 +744,46 @@ height:2em;
 /*======================================*/
 
 @media only screen and (min-width: 40em) {
-    
+
     .events-page{
     .container{
             .coral-back{
-                
+
                 h1{
                     margin: 3em 0 0;
                 }
             }
 }
 }
-    
-    .title{
-    padding: 4em 0 0;  
 
-           
+    .title{
+    padding: 4em 0 0;
+
+
 }
-    
+
     .navy{
     padding: 6em 10% 2em;
     }
-    
+
     .press-page{
         .container{
             padding: 0 auto 4em;
                 h1{
-                    margin: 4em 0 0;   
+                    margin: 4em 0 0;
                 }
         }
     }
-    
+
         .about-page{
         .container{
             padding: 0 auto 4em;
                 h1{
-                    margin: 4em 0 0;   
+                    margin: 4em 0 0;
                 }
         }
     }
-    
+
     .donate-btn{
         width: 100px;
         height: 40px;
@@ -795,7 +795,7 @@ height:2em;
         z-index: 150;
         color:white;
         border:1px solid white;
-        border-radius: 8px;
+        border-radius: 8px 0 0 8px ;
                 h2{
                     text-align: center;
                     font-size: .75em;
