@@ -809,6 +809,27 @@ height:2em;
         }
 }
 
+.employment-container {
+  background-image: url(../images/employment.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+.jobs-intro{
+    max-width: 30em;
+    margin: 0 auto 6em;
+    padding: 1em 10% 2em;
+    background-color: rgba(245,245,245,.75);
+    border-radius:0 0 8px 8px;
+    color: $dark-grey;
+        h1{
+            color: $dark-grey;
+        }
+
+}
 
 
 
@@ -894,9 +915,9 @@ height:2em;
 
     .jobs-page {
         .container{
-    padding: 90px 0 0;
-            max-width: 30em;
-            margin:0 auto 0;
+          padding: 90px 0 0;
+          max-width: 50em;
+          margin:0 auto 0;
         }
     }
 

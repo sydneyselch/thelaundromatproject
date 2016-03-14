@@ -1323,6 +1323,28 @@ h1 {
   color: #F15B4C;
 }
 
+.employment-container {
+  background-image: url(../images/employment.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+.jobs-intro {
+  max-width: 30em;
+  margin: 0 auto 6em;
+  padding: 1em 10% 2em;
+  background-color: rgba(245, 245, 245, 0.75);
+  border-radius: 0 0 8px 8px;
+  color: #3B3D3D;
+}
+
+.jobs-intro h1 {
+  color: #3B3D3D;
+}
+
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
@@ -1380,7 +1402,7 @@ h1 {
   }
   .jobs-page .container {
     padding: 90px 0 0;
-    max-width: 30em;
+    max-width: 50em;
     margin: 0 auto 0;
   }
   .mission-container {
