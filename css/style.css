@@ -1157,18 +1157,22 @@ h1 {
 /*======================================*/
 /*===========Shop Page=================*/
 /*======================================*/
+.center {
+  text-align: center;
+  margin: 2em auto 2em;
+}
+
 .shop {
+  max-width: 40em;
+  display: block;
   margin: 0 auto 0;
 }
 
-.shop-img {
-  height: 80vh;
-  position: absolute;
-}
-
-.shop ul {
+.shop-description ul {
+  margin: 0 auto 0;
   text-decoration: none;
   list-style-type: none;
+  padding: 0;
 }
 
 .shop-title {
@@ -1176,11 +1180,59 @@ h1 {
   margin: 0;
 }
 
+.shop-intro-container {
+  background-image: url(../images/art-shop.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+
 .shop-intro {
-  background-color: #F5F5F5;
+  background-color: rgba(245, 245, 245, 0.75);
   position: relative;
   padding: 2em;
   border-radius: 8px;
+  max-width: 40em;
+  margin: 0 auto 0;
+}
+
+.shop-item-title {
+  text-transform: uppercase;
+}
+
+.shop-item-container {
+  margin: 0 auto 0;
+}
+
+.shop-amount-buttons {
+  background-color: #3B3D3D;
+  font-size: 14px;
+  color: white;
+  min-width: 80px;
+  max-width: 80px;
+  height: 30px;
+  border: 0px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1em;
+}
+
+.shop-amount-buttons:hover,
+.shop-amount-buttons:active,
+.shop-amount-buttons:focus {
+  background-color: #F15B4C;
+}
+
+.shipping {
+  padding-bottom: 4em;
+  margin: 0 auto 0;
+  text-align: center;
+}
+
+.shipping-list {
+  list-style-type: none;
 }
 
 /*======================================*/
@@ -1279,6 +1331,7 @@ h1 {
     position: fixed;
     display: block;
     right: 0;
+    opacity: .9;
     background-color: #F15B4C;
     bottom: 204px;
     z-index: 150;
@@ -1355,10 +1408,17 @@ h1 {
   .staff .container {
     margin: 90px 15% 0;
   }
+  .shop-intro {
+    padding-top: 8em;
+  }
 }
 
 @media only screen and (max-width: 40em) {
   .amount-buttons {
+    min-width: 100px;
+    min-height: 50px;
+  }
+  .shop-amount-buttons {
     min-width: 100px;
     min-height: 50px;
   }
