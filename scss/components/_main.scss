@@ -567,8 +567,9 @@ height:2em;
 // donation-folder end
 // programs
 .program-wrapper {
-  max-width: 20em;
-  margin: 0 auto 4em;
+  max-width: 60em;
+  margin: 0 auto 0;
+  padding: 0;
     h2{
         color: $dark-blue;
     }
@@ -592,25 +593,16 @@ height:2em;
 
 .programs{
     padding: 1em 10% 2em;
-    background-color: $dark-blue;
+    background-color: $light-grey;
     border-radius: 8px;
-    color:white;
+    color: $dark-grey;
         h1{
-            color:white;
+            color: $dark-grey;
         }
 
 }
 
-.coral-back{
-    padding: 1em 10% 2em;
-    background-color: $coral;
-    border-radius: 8px;
-    color:white;
-        h1{
-            color:white;
-        }
 
-}
 
 .navy{
     padding: 1em 10% 2em;
@@ -626,6 +618,19 @@ height:2em;
         padding: 0;
     }
 
+}
+
+/*===================*/
+/*====blog===========*/
+/*===================*/
+
+.blog-container {
+  max-width: 60em;
+  margin: 0 auto 0;
+}
+
+.video {
+  margin: 0 auto 3em;
 }
 
 /*======================================*/
@@ -748,8 +753,29 @@ height:2em;
 /*======================================*/
 /*===========Projects Page=================*/
 /*======================================*/
+.projects-billboard {
+  background-image: url(/images/projects.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.projects-intro {
+    padding: 1em 10% 2em;
+    max-width: 40em;
+    margin: 0 auto 0;
+    background-color: rgba(245,245,245,.75);
+    border-radius: 8px;
+    color:white;
+        h1{
+            color: $dark-grey;
+        }
+
+}
 
 .projects-page{
+
     .container{
         padding: 0 auto 4em;
 
@@ -928,6 +954,10 @@ height:2em;
         }
     }
     .shop-intro {
+      padding-top: 8em;
+    }
+
+    .blog-container {
       padding-top: 8em;
     }
 }

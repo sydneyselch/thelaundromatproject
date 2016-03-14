@@ -1089,8 +1089,9 @@ h1 {
 }
 
 .program-wrapper {
-  max-width: 20em;
-  margin: 0 auto 4em;
+  max-width: 60em;
+  margin: 0 auto 0;
+  padding: 0;
 }
 
 .program-wrapper h2 {
@@ -1118,24 +1119,13 @@ h1 {
 
 .programs {
   padding: 1em 10% 2em;
-  background-color: #1B3D5F;
+  background-color: #F5F5F5;
   border-radius: 8px;
-  color: white;
+  color: #3B3D3D;
 }
 
 .programs h1 {
-  color: white;
-}
-
-.coral-back {
-  padding: 1em 10% 2em;
-  background-color: #F15B4C;
-  border-radius: 8px;
-  color: white;
-}
-
-.coral-back h1 {
-  color: white;
+  color: #3B3D3D;
 }
 
 .navy {
@@ -1152,6 +1142,18 @@ h1 {
 .navy h2 {
   margin: 0;
   padding: 0;
+}
+
+/*===================*/
+/*====blog===========*/
+/*===================*/
+.blog-container {
+  max-width: 60em;
+  margin: 0 auto 0;
+}
+
+.video {
+  margin: 0 auto 3em;
 }
 
 /*======================================*/
@@ -1271,6 +1273,27 @@ h1 {
 /*======================================*/
 /*===========Projects Page=================*/
 /*======================================*/
+.projects-billboard {
+  background-image: url(/images/projects.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.projects-intro {
+  padding: 1em 10% 2em;
+  max-width: 40em;
+  margin: 0 auto 0;
+  background-color: rgba(245, 245, 245, 0.75);
+  border-radius: 8px;
+  color: white;
+}
+
+.projects-intro h1 {
+  color: #3B3D3D;
+}
+
 .projects-page .container {
   padding: 0 auto 4em;
 }
@@ -1409,6 +1432,9 @@ h1 {
     margin: 90px 15% 0;
   }
   .shop-intro {
+    padding-top: 8em;
+  }
+  .blog-container {
     padding-top: 8em;
   }
 }
