@@ -1610,7 +1610,10 @@ page h2 {
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
-  .events-page .container .coral-back h1 {
+  .employment-container {
+    margin: 90px 0 0;
+  }
+  .events-page .container h1 {
     margin: 3em 0 0;
   }
   .title {
@@ -1662,9 +1665,15 @@ page h2 {
     padding: 90px 0 0;
   }
   .jobs-page .container {
-    padding: 90px 0 0;
+    padding: 0 10% 0;
     max-width: 50em;
     margin: 0 auto 0;
+  }
+  .jobs-page .container h2, .jobs-page .container h3, .jobs-page .container h4 {
+    color: #1B3D5F;
+  }
+  .jobs-page .container a {
+    color: #F15B4C;
   }
   .mission-container {
     margin: 0 15% 2em;
@@ -1684,6 +1693,7 @@ page h2 {
     display: block;
     width: 100%;
     height: 90px;
+    top: 0;
     position: fixed;
     z-index: 100;
     background-color: white;

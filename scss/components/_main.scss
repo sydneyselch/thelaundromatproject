@@ -1096,13 +1096,15 @@ page{
 }
 
     .events-page{
-    .container{
+        .container{
+
 
                 h2{
-                   color: $dark-blue;
+                  color: $dark-blue;
                 }
+            }
 }
-}
+
 .event{
     height: auto;
     width: 100%;
@@ -1116,12 +1118,13 @@ page{
 }
 
 .employment-container {
-  background-image: url(../images/employment.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 40vh;
-  width: 100%;
+      background-image: url(../images/employment.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 40vh;
+      width: 100%;
+    
 }
 
 .jobs-intro{
@@ -1142,28 +1145,29 @@ page{
 
 
 
+
+
 /*======================================*/
 /*===========Media Queeries=================*/
 /*======================================*/
 
 @media only screen and (min-width: 40em) {
+    
+    .employment-container{
+        margin: 90px 0 0;
+    }
 
     .events-page{
-    .container{
-            .coral-back{
-
-                h1{
-                    margin: 3em 0 0;
-                }
-            }
-}
-}
+        .container{
+                        h1{
+                            margin: 3em 0 0;
+                        }
+                    }
+        }
 
     .title{
-    padding: 4em 0 0;
-
-
-}
+        padding: 4em 0 0;
+    }
 
     .navy{
     padding: 6em 10% 2em;
@@ -1221,9 +1225,18 @@ page{
 
     .jobs-page {
         .container{
-          padding: 90px 0 0;
+          padding: 0 10% 0;
           max-width: 50em;
           margin:0 auto 0;
+            
+                h2, h3, h4{
+                    color:$dark-blue;   
+                }
+                a{
+                    color:$coral;   
+                }
+            
+            
         }
     }
 
@@ -1246,6 +1259,7 @@ page{
     display: block;
     width: 100%;
     height: 90px;
+        top:0;
       position: fixed;
       z-index: 100;
       background-color:white;
