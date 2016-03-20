@@ -866,12 +866,12 @@ h1 {
 
 .naomi {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -888,13 +888,13 @@ h1 {
 
 .dill {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
 }
@@ -910,13 +910,13 @@ h1 {
 
 .stephanie {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
 }
@@ -932,12 +932,12 @@ h1 {
 
 .erika {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -954,12 +954,12 @@ h1 {
 
 .sophie {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -976,12 +976,12 @@ h1 {
 
 .christopher {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -998,12 +998,12 @@ h1 {
 
 .julie {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -1020,12 +1020,12 @@ h1 {
 
 .rise {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -1042,12 +1042,12 @@ h1 {
 
 .dexter {
   position: fixed;
-  top: 90px;
+  top: 154px;
   left: 0;
   z-index: 50;
   overflow: auto;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 154px);
   display: none;
   background-color: white;
   -webkit-overflow-scrolling: touch;
@@ -1610,6 +1610,10 @@ page h2 {
 /*===========Media Queeries=================*/
 /*======================================*/
 @media only screen and (min-width: 40em) {
+  .naomi, .dill, .stephanie, .erika, .sophie, .christopher, .julie, .rise, .dexter {
+    top: 115px;
+    height: calc(100vh - 115px);
+  }
   .employment-container {
     margin: 90px 0 0;
   }
@@ -1692,7 +1696,7 @@ page h2 {
     text-transform: lowercase;
     display: block;
     width: 100%;
-    height: 90px;
+    height: 115px;
     top: 0;
     position: fixed;
     z-index: 100;
