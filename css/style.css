@@ -1568,6 +1568,10 @@ page h2 {
   text-align: center;
 }
 
+.events-page .container h1 {
+  margin: 1em 0 0;
+}
+
 .events-page .container h2 {
   color: #1B3D5F;
 }
