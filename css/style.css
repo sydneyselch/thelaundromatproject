@@ -1568,11 +1568,7 @@ page h2 {
   text-align: center;
 }
 
-.events-page .container h1 {
-  margin: 1em 0 0;
-}
-
-.events-page .container h2 {
+.events-page h2 {
   color: #1B3D5F;
 }
 
@@ -1622,7 +1618,7 @@ page h2 {
     margin: 90px 0 0;
   }
   .events-page .container h1 {
-    margin: 3em 0 0;
+    margin: 4em 0 0;
   }
   .title {
     padding: 4em 0 0;

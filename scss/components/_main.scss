@@ -1105,7 +1105,7 @@ page{
                   color: $dark-blue;
                 }
             }
-}
+
 
 .event{
     height: auto;
@@ -1166,11 +1166,10 @@ page{
 
     .events-page{
         .container{
-                        h1{
-                            margin: 4em 0 0;
-                        
-                        }
-                    }
+             h1{
+                margin: 4em 0 0;    
+                }
+            }
         }
 
     .title{
